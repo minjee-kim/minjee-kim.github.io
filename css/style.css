@@ -6,12 +6,12 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #B22222;
+    background-color: #FFC0CB;
 }
 
 /* Header Styles */
 header {
-    background-color: #FFC0CB;
+    background-color: #B22222;
     color: #fff;
     padding: 20px;
     text-align: center;
