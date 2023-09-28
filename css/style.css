@@ -60,13 +60,22 @@ footer {
 .loading-screen {
     display: flex;
     text-align: center;
-    font-size: 30px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #ffccff;
 }
+
+/* CSS for font size of <h1> and <p> in the loading screen */
+.loading-screen h1 {
+    font-size: 24px; /* Adjust the font size for <h1> as needed */
+}
+
+.loading-screen p {
+    font-size: 16px; /* Adjust the font size for <p> as needed */
+}
+
 
 .loader {
     border: 6px solid #ff33cc;
