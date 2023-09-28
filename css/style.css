@@ -69,11 +69,11 @@ footer {
 
 /* CSS for font size of <h1> and <p> in the loading screen */
 .loading-screen h1 {
-    font-size: 24px; /* Adjust the font size for <h1> as needed */
+    font-size: 20px; /* Adjust the font size for <h1> as needed */
 }
 
 .loading-screen p {
-    font-size: 16px; /* Adjust the font size for <p> as needed */
+    font-size: 14px; /* Adjust the font size for <p> as needed */
 }
 
 
