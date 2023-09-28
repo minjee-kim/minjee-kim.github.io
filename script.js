@@ -26,3 +26,9 @@ function showMainContent() {
 window.onload = function () {
     showMainContent();
 };
+
+
+// Delay the display of the main content for 3 seconds (3000 milliseconds)
+setTimeout(function () {
+    showMainContent();
+}, 3000);
