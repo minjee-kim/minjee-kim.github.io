@@ -59,6 +59,8 @@ footer {
 
 .loading-screen {
     display: flex;
+    text-align: center;
+    font-size: 80px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
