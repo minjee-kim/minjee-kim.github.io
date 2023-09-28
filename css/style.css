@@ -81,7 +81,7 @@ footer {
 .loading-spinner {
     position: fixed;
     top: 50%;
-    left: 90%;
+    left: 60%;
     transform: translate(-50%, -50%);
     z-index: 9999; /* Ensure it's on top of other content */
 }
