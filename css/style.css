@@ -47,6 +47,7 @@ h1, h2, h3 {
 }
 
 p {
+    font-family: "Comic Sans MS";
     color: #333; /* Dark gray text color */
 }
 
