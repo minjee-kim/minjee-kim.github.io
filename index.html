@@ -1,10 +1,59 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minjee's Personal Website</title>
     <link rel="stylesheet" href="css/style.css">
-   <script>
+    <style>
+        /* Center the loading screen content */
+        #loading-screen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ensure the loading screen covers the entire viewport height */
+            background-color: #f0f0f0; /* Adjust background color as needed */
+        }
+
+        /* Center the splash screen content */
+        #splash-content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <!-- Splash Screen Content -->
+        <div id="splash-content">
+            <!-- Add your splash screen content here -->
+            <h1>Welcome to Minjee's Website</h1>
+            <p>Loading...</p>
+        </div>
+
+        <!-- Loading Animation (Optional) -->
+        <div id="loading-animation">
+            <!-- Add loading animation or spinner here -->
+        </div>
+    </div>
+
+    <!-- Main Content (Initially hidden) -->
+    <div id="main-content" style="display: none;">
+        <header>
+            <!-- Your header content here -->
+        </header>
+
+        <main>
+            <!-- Your main content here -->
+        </main>
+
+        <footer>
+            <!-- Your footer content here -->
+        </footer>
+    </div>
+
+    <!-- JavaScript to control loading and transitions -->
+    <script>
         // Simulate a delay (e.g., 3 seconds) for demonstration
         setTimeout(function () {
             var loadingScreen = document.getElementById("loading-screen");
@@ -15,76 +64,6 @@
             mainContent.style.display = "block";
         }, 3000); // Adjust the delay time as needed (in milliseconds)
     </script>
-
-    </head>
-<body>
-    <!-- Splash Page -->
-    <div id="splash-page">
-        <!-- Add your splash page content here -->
-        <h1>Welcome to Minjee's Website</h1>
-        <p>Loading...</p>
-    </div>
-
-
-    <div id="main-content" style="display: none;">
-        <h1> Minjee's BAZAAR!</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#articles">Articles</a></li>
-                <li><a href="#categories">Categories</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home">
-            <h2>Welcome to Our Magazine</h2>
-            <p>Discover the latest articles, news, and stories.</p>
-        </section>
-
-        <section id="articles">
-            <h2>Recent Articles</h2>
-            <article>
-                <h3>Article Title 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
-                <a href="#">Read More</a>
-            </article>
-            <article>
-                <h3>Article Title 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
-                <a href="#">Read More</a>
-            </article>
-            <article>
-                <h3>Article Title 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
-                <a href="#">Read More</a>
-            </article>
-            <!-- Add more articles here -->
-        </section>
-
-        <section id="categories">
-            <h2>Categories</h2>
-            <ul>
-                <li><a href="#">Fashion</a></li>
-                <li><a href="#">Technology</a></li>
-                <li><a href="#">Travel</a></li>
-                <li><a href="#">Lifestyle</a></li>
-                <li><a href="#">Food</a></li>
-                <!-- Add more categories here -->
-            </ul>
-        </section>
-
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Magazine Name</p>
-    </footer>
 </body>
 </html>
 
