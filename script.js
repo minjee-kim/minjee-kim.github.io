@@ -14,3 +14,15 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+// Function to show the main content
+function showMainContent() {
+    document.querySelector('.loading-spinner').style.display = 'none';
+    document.querySelector('main').style.display = 'block';
+}
+
+// Wait for the entire page to load before showing the main content
+window.onload = function () {
+    showMainContent();
+};
