@@ -1,16 +1,32 @@
-<!DOCTYPE html>
 <html lang="en">
-    <script>
-        window.location.href = "splash.html";
-    </script>
-
 <head>
-    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minjee's Personal Website</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
+   <script>
+        // Display the splash page initially
+        window.onload = function () {
+            var splashPage = document.getElementById("splash-page");
+            var mainContent = document.getElementById("main-content");
+
+            // Hide the splash page after a certain time (e.g., 3 seconds)
+            setTimeout(function () {
+                splashPage.style.display = "none";
+                mainContent.style.display = "block";
+            }, 3000); // Adjust the time as needed (in milliseconds)
+        }
+    </script>
+
+    </head>
+<body>
+    <!-- Splash Page -->
+    <div id="splash-page">
+        <!-- Add your splash page content here -->
+        <h1>Welcome to Minjee's Website</h1>
+        <p>Loading...</p>
+    </div>
+
 <body>
     <header>
         <h1> Minjee's BAZAAR!</h1>
