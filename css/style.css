@@ -63,7 +63,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #ffccff;
 }
 
@@ -89,7 +88,7 @@ footer {
 /* Define the spinner container */
 .loading-spinner {
     position: fixed;
-    top: 50%;
+    top: 70%;
     left: 70%;
     transform: translate(-50%, -50%);
     z-index: 9999; /* Ensure it's on top of other content */
