@@ -56,3 +56,31 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+
+/* Define the spinner container */
+.loading-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Ensure it's on top of other content */
+}
+
+/* Define the crown icon */
+.crown {
+    font-size: 40px; /* Adjust the size as needed */
+    color: #ff33cc; /* Crown color */
+    animation: bounce 1s ease-in-out infinite; /* Bouncing animation */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Adjust the bounce height */
+    }
+}
+
