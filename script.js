@@ -16,10 +16,13 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+// Function to show the main content
 function showMainContent() {
+    console.log('Show main content called'); // Add this line for debugging
     document.querySelector('.loading-spinner').style.display = 'none';
     document.querySelector('main').style.display = 'block';
 }
+
 
 // Simulate a loading delay (3 seconds)
 setTimeout(function () {
