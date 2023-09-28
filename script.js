@@ -15,15 +15,10 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
-// Function to show the main content
-function showMainContent() {
+// Function to hide the loading screen
+function hideLoadingScreen() {
     document.querySelector('.loading-screen').style.display = 'none';
-    document.querySelector('main').style.display = 'block';
 }
 
-
-// Simulate a loading delay (3 seconds)
-setTimeout(function () {
-    showMainContent();
-}, 3000); // 3000 milliseconds (3 seconds)
+// Call the hideLoadingScreen() function after 3 seconds (3000 milliseconds)
+setTimeout(hideLoadingScreen, 3000);
