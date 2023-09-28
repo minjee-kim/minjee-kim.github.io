@@ -5,17 +5,15 @@
     <title>Minjee's Personal Website</title>
     <link rel="stylesheet" href="css/style.css">
    <script>
-        // Display the splash page initially
-        window.onload = function () {
-            var splashPage = document.getElementById("splash-page");
+        // Simulate a delay (e.g., 3 seconds) for demonstration
+        setTimeout(function () {
+            var loadingScreen = document.getElementById("loading-screen");
             var mainContent = document.getElementById("main-content");
 
-            // Hide the splash page after a certain time (e.g., 3 seconds)
-            setTimeout(function () {
-                splashPage.style.display = "none";
-                mainContent.style.display = "block";
-            }, 3000); // Adjust the time as needed (in milliseconds)
-        }
+            // Hide the loading screen and show the main content
+            loadingScreen.style.display = "none";
+            mainContent.style.display = "block";
+        }, 3000); // Adjust the delay time as needed (in milliseconds)
     </script>
 
     </head>
