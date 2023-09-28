@@ -1,78 +1,58 @@
-/* Define a Hello Kitty color palette */
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #fff; /* White background */
-    font-family: "Arial", sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f9f7f7;
 }
 
-/* Cute container with Hello Kitty theme */
-.main-container {
-    background-color: #ffc0cb; /* Hello Kitty pink */
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+header {
+    background-color: #ffccff;
+    text-align: center;
     padding: 20px;
-    margin: 20px auto; /* Center the container horizontally */
-    max-width: 800px; /* Adjust the maximum width as needed */
-    position: relative; /* For positioning Hello Kitty elements */
 }
 
-/* Hello Kitty bow */
-.bow {
-    width: 40px; /* Adjust size as needed */
-    height: 20px;
-    background-color: #f00; /* Red bow color */
-    position: absolute;
-    top: -10px; /* Adjust the vertical position */
-    left: 10px; /* Adjust the horizontal position */
-    transform: rotate(-45deg); /* Rotate the bow */
-    border-radius: 50% 50% 0 0; /* Create a bow shape */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #ffccff;
+    padding: 10px;
 }
 
-/* Hello Kitty face */
-.kitty-face {
-    width: 80px; /* Adjust size as needed */
-    height: 80px;
-    background-color: #fff; /* White face color */
-    border: 2px solid #000; /* Black outline */
-    border-radius: 50%; /* Create a circular face */
-    position: absolute;
-    top: -40px; /* Adjust the vertical position */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-/* Customize text with a playful font */
-h1, h2, h3 {
-    font-family: "Comic Sans MS", cursive;
-    color: #ff69b4; /* Hello Kitty pink for headings */
-}
-
-p {
-    font-family: "Comic Sans MS";
-    color: #333; /* Dark gray text color */
-}
-
-/* Cute button */
-.button {
-    background-color: #ff69b4; /* Hello Kitty pink */
-    color: #fff; /* White text color */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #ff1493; /* Slightly darker pink on hover */
-}
-
-/* Customize links with Hello Kitty colors */
-a {
-    color: #ff69b4; /* Hello Kitty pink for links */
+nav ul li a {
     text-decoration: none;
-    transition: color 0.3s ease;
+    color: #333;
+    font-weight: bold;
 }
 
-a:hover {
-    color: #ff1493; /* Slightly darker pink on hover */
+main {
+    margin: 20px;
+}
+
+.castle, .princess {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.castle h2, .princess h2 {
+    color: #ff33cc;
+}
+
+footer {
+    background-color: #ffccff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
