@@ -58,13 +58,25 @@ footer {
 }
 
 .loading-screen {
-    background-image: url('https://github.com/minjee-kim/minjee-kim.github.io/castle.jpg');
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative; /* Set the loading screen to a relative position */
+    background-image: url('castle.jpg'); /* Replace 'image-url.jpg' with the actual URL of your image */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat; /* Optional: Prevent image repetition */
+    /* Other background properties and styling as needed */
 }
 
+/* CSS for the text overlay */
+.text-overlay {
+    position: absolute; /* Set the text element to an absolute position */
+    top: 50%; /* Adjust as needed to vertically center the text */
+    left: 50%; /* Adjust as needed to horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    z-index: 2; /* Ensure the text is above the background image */
+    color: #fff; /* Text color */
+    font-size: 24px; /* Text font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add a text shadow for better visibility */
+}
 /* CSS for font size of <h1> and <p> in the loading screen */
 .loading-screen h1 {
     font-size: 20px; /* Adjust the font size for <h1> as needed */
