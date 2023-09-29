@@ -59,12 +59,10 @@ footer {
 
 .loading-screen {
     background-image: url('https://github.com/minjee-kim/minjee-kim.github.io/castle.jpg');
-    display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ffccff;
 }
 
 /* CSS for font size of <h1> and <p> in the loading screen */
