@@ -79,7 +79,7 @@ footer {
     position: absolute; /* Position the image behind the text */
     top: 0;
     left: 0;
-    opacity: 0.5; /* Adjust opacity as needed */
+    opacity: 1; /* Adjust opacity as needed */
 }
 
 /* CSS for the text overlay */
