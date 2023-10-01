@@ -108,7 +108,7 @@ footer {
 }
 
 .bibble-spinner {
-    width: 100px; /* Adjust the size as needed */
+    width: 10px; /* Adjust the size as needed */
     height: auto; /* Preserve the image's aspect ratio */
     position: absolute;
     top: 50%;
@@ -123,6 +123,6 @@ footer {
         transform: translate(-50%, -50%) translateY(0); /* Start and end position (no vertical movement) */
     }
     50% {
-        transform: translate(-50%, -50%) translateY(-20px); /* Midway point (move up) */
+        transform: translate(-50%, -50%) translateY(-10px); /* Midway point (move up) */
     }
 }
