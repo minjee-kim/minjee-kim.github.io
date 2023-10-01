@@ -107,28 +107,22 @@ footer {
     animation: spin 2s linear infinite;
 }
 
-/* Define the spinner container */
-.loading-spinner {
-    position: fixed;
-    top: 70%;
-    left: 70%;
+.bibble-spinner {
+    width: 100px; /* Adjust the size as needed */
+    height: auto; /* Preserve the image's aspect ratio */
+    position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 9999; /* Ensure it's on top of other content */
+    animation: bounce 2s infinite; /* Bouncing animation */
 }
 
-/* Define the crown icon */
-.crown {
-    font-size: 80px; /* Adjust the size as needed */
-    color: #ff33cc; /* Crown color */
-    animation: bounce 1s ease-in-out infinite; /* Bouncing animation */
-}
 
 @keyframes bounce {
     0%, 100% {
-        transform: translateY(0);
+        transform: translate(-50%, -50%) translateY(0); /* Start and end position (no vertical movement) */
     }
     50% {
-        transform: translateY(-20px); /* Adjust the bounce height */
+        transform: translate(-50%, -50%) translateY(-20px); /* Midway point (move up) */
     }
 }
-
