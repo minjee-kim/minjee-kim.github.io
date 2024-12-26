@@ -21,16 +21,22 @@
 
     <!-- Custom CSS -->
     <style>
+        :root {
+            --main-bg-color: #ffe4e1; /* Light pink */
+            --secondary-bg-color: #ffb6c1; /* Deeper pink */
+            --text-color: #8b0000; /* Deep red */
+        }
+
         body {
             font-family: 'Lato', sans-serif;
-            background-color: #f8f9fa;
-            color: #212529;
+            background-color: var(--main-bg-color);
+            color: var(--text-color);
         }
 
         .header {
-            background-color: #6c757d;
+            background-color: var(--secondary-bg-color);
             color: white;
-            padding: 50px 0;
+            padding: 50px 20px;
             text-align: center;
         }
 
@@ -46,9 +52,13 @@
         .profile {
             margin: 20px auto;
             width: 150px;
-            height: 150px;
+            height: 200px;
             border-radius: 50%;
             background: url('src/profile.png') no-repeat center center/cover;
+        }
+
+        .social-icons {
+            margin-top: 20px;
         }
 
         .social-icons a {
@@ -56,47 +66,71 @@
             color: white;
         }
 
-        .professional-message {
+        .content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 40px;
             padding: 50px 20px;
+        }
+
+        .content .profile-section {
+            flex: 0 0 200px;
             text-align: center;
         }
 
-        .professional-message h2 {
+        .content .profile-section .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .content .text-section {
+            flex: 1;
+            max-width: 800px;
+        }
+
+        .content .text-section h2 {
             font-size: 2rem;
             margin-bottom: 20px;
         }
 
-        .professional-message p {
+        .content .text-section p {
             font-size: 1.2rem;
             line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
         }
     </style>
 </head>
 <body>
     <!-- Header Panel -->
     <header class="header">
-        <div class="profile"></div>
         <h1>Minjee Kim</h1>
         <p>PhD Student in Statistics | Researcher | Mentor</p>
-        <div class="social-icons">
-            <a href="https://linkedin.com/in/minjee-kim" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://orcid.org/0000-0000-0000-0000" target="_blank"><i class="fab fa-orcid fa-2x"></i></a>
-            <a href="mailto:minjeekim0804@tamu.edu" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
-        </div>
     </header>
 
-    <!-- Professional Message Section -->
-    <section class="professional-message">
-        <h2>Welcome to My Professional Portfolio</h2>
-        <p>
-            I am a PhD student in Statistics at Texas A&M University, advised by Dr. Valen Johnson. My research focuses on 
-            developing Bayesian validation methods for complex agent-based modeling systems and designing realistic 
-            epidemiological models. With a strong background in statistical methodologies, I have experience in high-dimensional 
-            regression, clustering, and time series analysis, working on interdisciplinary projects spanning biosciences, 
-            physics, and industrial distribution. Explore my portfolio to learn more about my work and achievements.
-        </p>
+    <!-- Main Content Section -->
+    <section class="content">
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <div class="profile"></div>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/minjee-kim" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://orcid.org/0000-0000-0000-0000" target="_blank"><i class="fab fa-orcid fa-2x"></i></a>
+                <a href="mailto:minjeekim0804@tamu.edu" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+            </div>
+        </div>
+
+        <!-- Text Section -->
+        <div class="text-section">
+            <h2>Welcome to My Professional Portfolio</h2>
+            <p>
+                I am a PhD student in Statistics at Texas A&M University, advised by Dr. Valen Johnson. My research focuses on 
+                developing Bayesian validation methods for complex agent-based modeling systems and designing realistic 
+                epidemiological models. With a strong background in statistical methodologies, I have experience in high-dimensional 
+                regression, clustering, and time series analysis, working on interdisciplinary projects spanning biosciences, 
+                physics, and industrial distribution. Explore my portfolio to learn more about my work and achievements.
+            </p>
+        </div>
     </section>
 
     <!-- Bootstrap JS -->
