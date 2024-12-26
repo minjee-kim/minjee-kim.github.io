@@ -25,6 +25,8 @@
             --main-bg-color: #ffe4e1; /* Light pink */
             --secondary-bg-color: #ffb6c1; /* Deeper pink */
             --text-color: #8b0000; /* Deep red */
+            --panel-bg-color: white;
+            --panel-shadow: rgba(0, 0, 0, 0.1);
         }
 
         body {
@@ -49,6 +51,22 @@
             font-size: 1.25rem;
         }
 
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+        }
+
+        .profile-panel {
+            background-color: var(--panel-bg-color);
+            box-shadow: 0px 4px 6px var(--panel-shadow);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+
         .profile {
             margin: 20px auto;
             width: 150px;
@@ -63,22 +81,14 @@
 
         .social-icons a {
             margin: 0 10px;
-            color: white;
+            color: var(--secondary-bg-color);
         }
 
-        .main-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 50px 20px;
-            gap: 40px;
-        }
-
-        .main-content .links {
+        .links {
             margin-top: 20px;
         }
 
-        .main-content .links a {
+        .links a {
             display: block;
             color: var(--text-color);
             text-decoration: none;
@@ -89,6 +99,7 @@
         .text-section {
             max-width: 800px;
             text-align: center;
+            margin-top: 40px;
         }
 
         .text-section h2 {
@@ -111,19 +122,19 @@
 
     <!-- Main Content Section -->
     <section class="main-content">
-        <!-- Profile Section -->
-        <div class="profile"></div>
-        <div class="social-icons">
-            <a href="https://linkedin.com/in/minjee-kim" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://orcid.org/0000-0000-0000-0000" target="_blank"><i class="fab fa-orcid fa-2x"></i></a>
-            <a href="mailto:minjeekim0804@tamu.edu" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
-        </div>
-
-        <!-- Links Section -->
-        <div class="links">
-            <a href="projects.html">Projects</a>
-            <a href="cv.html">CV</a>
-            <a href="publications.html">Publications</a>
+        <!-- Profile Panel -->
+        <div class="profile-panel">
+            <div class="profile"></div>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/minjee-kim" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://orcid.org/0000-0000-0000-0000" target="_blank"><i class="fab fa-orcid fa-2x"></i></a>
+                <a href="mailto:minjeekim0804@tamu.edu" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+            </div>
+            <div class="links">
+                <a href="projects.html">Projects</a>
+                <a href="cv.html">CV</a>
+                <a href="publications.html">Publications</a>
+            </div>
         </div>
 
         <!-- Text Section -->
