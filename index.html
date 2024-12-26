@@ -66,36 +66,37 @@
             color: white;
         }
 
-        .content {
+        .main-content {
             display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            gap: 40px;
+            flex-direction: column;
+            align-items: center;
             padding: 50px 20px;
+            gap: 40px;
         }
 
-        .content .profile-section {
-            flex: 0 0 200px;
+        .main-content .links {
+            margin-top: 20px;
+        }
+
+        .main-content .links a {
+            display: block;
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+
+        .text-section {
+            max-width: 800px;
             text-align: center;
         }
 
-        .content .profile-section .social-icons {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .content .text-section {
-            flex: 1;
-            max-width: 800px;
-        }
-
-        .content .text-section h2 {
+        .text-section h2 {
             font-size: 2rem;
             margin-bottom: 20px;
         }
 
-        .content .text-section p {
+        .text-section p {
             font-size: 1.2rem;
             line-height: 1.6;
         }
@@ -109,15 +110,20 @@
     </header>
 
     <!-- Main Content Section -->
-    <section class="content">
+    <section class="main-content">
         <!-- Profile Section -->
-        <div class="profile-section">
-            <div class="profile"></div>
-            <div class="social-icons">
-                <a href="https://linkedin.com/in/minjee-kim" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href="https://orcid.org/0000-0000-0000-0000" target="_blank"><i class="fab fa-orcid fa-2x"></i></a>
-                <a href="mailto:minjeekim0804@tamu.edu" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
-            </div>
+        <div class="profile"></div>
+        <div class="social-icons">
+            <a href="https://linkedin.com/in/minjee-kim" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://orcid.org/0000-0000-0000-0000" target="_blank"><i class="fab fa-orcid fa-2x"></i></a>
+            <a href="mailto:minjeekim0804@tamu.edu" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+        </div>
+
+        <!-- Links Section -->
+        <div class="links">
+            <a href="projects.html">Projects</a>
+            <a href="cv.html">CV</a>
+            <a href="publications.html">Publications</a>
         </div>
 
         <!-- Text Section -->
