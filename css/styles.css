@@ -89,7 +89,7 @@
     height: 150px;
     margin: 0 auto 20px;
     border-radius: 50%;
-    background: url('src/profile.png') no-repeat center center/cover;
+    background: url('../src/profile.png') no-repeat center center/cover;
 }
 
 .social-links {
