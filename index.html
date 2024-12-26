@@ -27,6 +27,7 @@
             --text-color: #8b0000; /* Deep red */
             --panel-bg-color: white;
             --panel-shadow: rgba(0, 0, 0, 0.1);
+            --link-color: #c71585; /* Dark pink */
         }
 
         body {
@@ -58,9 +59,14 @@
 
         .nav-links a {
             margin: 0 15px;
-            color: var(--text-color);
+            color: var(--link-color);
             text-decoration: none;
             font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
         }
 
         .main-content {
@@ -116,10 +122,14 @@
     </style>
 </head>
 <body>
-    <!-- Header Panel -->
     <header class="header">
         <h1>Minjee Kim</h1>
         <p>PhD Student in Statistics | Researcher | Mentor</p>
+        <nav class="nav-links">
+            <a href="projects.html">Projects</a>
+            <a href="cv.html">CV</a>
+            <a href="publications.html">Publications</a>
+        </nav>
     </header>
 
     <!-- Navigation Links -->
