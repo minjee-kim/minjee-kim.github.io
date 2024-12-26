@@ -169,6 +169,8 @@ a:hover {
   margin: 0 15px;
   font-size: 1.25rem;
   text-transform: uppercase;
+  color: var(--bs-link-color) !important;
+  text-decoration: none !important;
 }
 .nav-links a.active {
   border-bottom: 2px solid var(--bs-link-color);
