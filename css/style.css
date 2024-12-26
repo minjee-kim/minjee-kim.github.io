@@ -67,6 +67,52 @@
   }
 }
 
+.main-content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.profile-panel {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    position: sticky;
+    top: 20px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: url('src/assets/profile.png') no-repeat center center/cover;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-links li {
+    margin: 10px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #ff6f61;
+    font-size: 1.1rem;
+}
+
+.social-links a:hover {
+    color: #d63384; /* Darker pink on hover */
+}
+
+
 /* Body */
 body {
   font-family: var(--bs-body-font-family);
