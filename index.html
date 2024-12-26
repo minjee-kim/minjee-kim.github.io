@@ -51,9 +51,21 @@
             font-size: 1.25rem;
         }
 
+        .nav-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .nav-links a {
+            margin: 0 15px;
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 1.25rem;
+        }
+
         .main-content {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             padding: 50px 20px;
             gap: 20px;
         }
@@ -65,7 +77,7 @@
             border-radius: 10px;
             flex: 0 0 300px;
             text-align: center;
-            position: sticky; /* Makes the panel sticky */
+            position: sticky;
             top: 20px;
         }
 
@@ -84,18 +96,6 @@
         .social-icons a {
             margin: 0 10px;
             color: var(--secondary-bg-color);
-        }
-
-        .links {
-            margin-top: 20px;
-        }
-
-        .links a {
-            display: block;
-            color: var(--text-color);
-            text-decoration: none;
-            font-size: 1.25rem;
-            margin-bottom: 10px;
         }
 
         .text-section {
@@ -122,6 +122,13 @@
         <p>PhD Student in Statistics | Researcher | Mentor</p>
     </header>
 
+    <!-- Navigation Links -->
+    <div class="nav-links">
+        <a href="projects.html">Projects</a>
+        <a href="cv.html">CV</a>
+        <a href="publications.html">Publications</a>
+    </div>
+
     <!-- Main Content Section -->
     <section class="main-content">
         <!-- Profile Panel -->
@@ -131,11 +138,6 @@
                 <a href="https://linkedin.com/in/minjee-kim" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
                 <a href="https://orcid.org/0000-0000-0000-0000" target="_blank"><i class="fab fa-orcid fa-2x"></i></a>
                 <a href="mailto:minjeekim0804@tamu.edu" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
-            </div>
-            <div class="links">
-                <a href="projects.html">Projects</a>
-                <a href="cv.html">CV</a>
-                <a href="publications.html">Publications</a>
             </div>
         </div>
 
