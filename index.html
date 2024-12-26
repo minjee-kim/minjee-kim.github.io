@@ -58,15 +58,15 @@
             margin: 0; /* Removed extra margin */
         }
 
-        .nav-links a {
+        .nav-links span {
             margin: 0 15px;
             color: var(--link-color);
-            text-decoration: none;
             font-size: 1.25rem;
             font-weight: bold;
+            cursor: pointer;
         }
 
-        .nav-links a:hover {
+        .nav-links span:hover {
             text-decoration: underline;
         }
 
@@ -138,14 +138,12 @@
     <header class="header">
         <h1>Minjee Kim</h1>
         <p>PhD Student in Statistics | Researcher | Mentor</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="navigation/projects/projects.html">Projects</a>
-            <a href="navigation/cv/cv.html">CV</a>
-            <a href="navigation/publications/publications.html">Publications</a>
+        <nav class="nav-links">
+            <span>Home</span>
+            <span>Projects</span>
+            <span>CV</span>
+            <span>Publications</span>
         </nav>
-    </header>
-
     </header>
 
     <!-- Main Content Section -->
