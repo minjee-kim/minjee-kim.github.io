@@ -72,26 +72,48 @@ body {
 
 /* Profile Panel */
 .profile-panel {
-  background-color: var(--bs-white);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 20px;
-  width: 450px; /* Increased width */
-  text-align: center;
-  position: sticky;
-  top: 20px;
-  min-height: 600px;
+    width: 100%; /* Full width on smaller screens */
+    max-width: 450px; /* Limit maximum width on larger screens */
+    margin: 0 auto; /* Center it horizontally */
+    padding: 20px;
+    background-color: var(--bs-white);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 20px;
+    text-align: center;
 }
 .profile {
-    width: 300px; /* Fixed width */
-    height: 350px; /* Fixed height for oval */
-    max-width: 100%; /* Scale down for smaller screens */
+    width: 80%; /* Reduce image width for smaller screens */
+    max-width: 300px; /* Limit maximum width */
+    height: auto; /* Maintain aspect ratio */
     margin: 0 auto 20px;
     border-radius: 50%; /* Oval shape */
     background: url('../../src/profile.png') no-repeat center center/cover;
-    background-size: cover; /* Ensure the entire image fits */
+    background-size: cover;
     background-color: #f0f0f0;
 }
+@media (max-width: 768px) {
+    .profile-panel {
+        width: 100%; /* Make the profile panel fill the screen width */
+        padding: 15px; /* Reduce padding for smaller screens */
+        text-align: center;
+    }
+    .profile {
+        width: 60%; /* Reduce image size further for mobile */
+        max-width: 200px; /* Limit maximum size */
+    }
+}
+@media (max-width: 480px) {
+    .profile-panel {
+        padding: 10px; /* Further reduce padding for very small screens */
+    }
+    .profile {
+        width: 50%; /* Shrink image to half the panel width */
+        max-width: 150px; /* Limit maximum size */
+    }
+}
+
 .social-links {
   list-style: none;
   padding: 0;
