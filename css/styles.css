@@ -1,32 +1,11 @@
 @charset "UTF-8";
 /* Root Variables */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
+  --bs-teal: #1abc9c; /* Teal for Header */
   --bs-pink: #d63384; /* Base Pink */
   --bs-pink-dark: #9b0048; /* Darker Pink */
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #1abc9c;
-  --bs-cyan: #0dcaf0;
-  --bs-black: #000;
   --bs-white: #fff;
-  --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
-  --bs-gray-400: #ced4da;
-  --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d;
-  --bs-gray-700: #495057;
-  --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
-  --bs-primary: #1abc9c; /* Green Primary */
-  --bs-secondary: #d63384; /* Dark Pink for Header */
   --bs-light-pink: #ffe4e1; /* Light Background */
   --bs-body-font-family: "Lato", sans-serif;
   --bs-link-color: #d63384;
@@ -42,12 +21,6 @@
   padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: smooth;
-  }
-}
-
 body {
   font-family: var(--bs-body-font-family);
   font-size: 1rem;
@@ -58,7 +31,7 @@ body {
 
 /* Header */
 .header {
-  background-color: var(--bs-secondary); /* Dark Pink */
+  background-color: var(--bs-teal); /* Teal Header */
   color: var(--bs-white);
   padding: 40px 20px;
   text-align: center;
@@ -77,7 +50,7 @@ body {
   text-align: center;
 }
 .nav-links a {
-  color: var(--bs-link-color);
+  color: var(--bs-white); /* White Links */
   text-decoration: none;
   margin: 0 15px;
   font-size: 1.25rem;
@@ -85,10 +58,10 @@ body {
   text-transform: uppercase;
 }
 .nav-links a.active {
-  border-bottom: 2px solid var(--bs-link-color);
+  border-bottom: 2px solid var(--bs-white); /* Highlight for Active Link */
 }
 .nav-links a:hover {
-  color: var(--bs-link-hover-color);
+  color: var(--bs-link-color);
   text-decoration: underline;
 }
 
@@ -105,11 +78,12 @@ body {
   min-height: 500px;
 }
 .profile {
-  width: 100%;
-  height: auto; /* Ensure image maintains aspect ratio */
+  width: 80%; /* Adjusts width relative to the panel */
+  height: auto; /* Maintains aspect ratio */
+  max-height: 250px; /* Sets a maximum height to ensure it's an oval */
   margin: 0 auto 20px;
-  border-radius: 50%;
-  background: url('../src/profile.png') no-repeat center center/cover; /* Corrected path */
+  border-radius: 50% / 70%; /* Creates the oval shape */
+  background: url('../src/profile.png') no-repeat center center/cover; /* Ensure this path is correct */
 }
 .social-links {
   list-style: none;
@@ -175,7 +149,7 @@ a:hover {
   text-transform: uppercase;
 }
 .btn-primary {
-  background-color: var(--bs-primary);
+  background-color: var(--bs-teal);
   color: var(--bs-white);
   border: none;
 }
