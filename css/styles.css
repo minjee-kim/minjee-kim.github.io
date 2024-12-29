@@ -78,8 +78,8 @@ body {
   min-height: 600px;
 }
 .profile {
-    width: 200px; /* Wider image */
-    height: 250px;
+    width: 80%; /* Wider image */
+    height: auto;
     margin: 0 auto 20px;
     border-radius: 50%; /* Oval shape */
     background: url('../../src/profile.png') no-repeat center center/cover;
