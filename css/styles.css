@@ -106,7 +106,7 @@ body {
 }
 .profile {
   width: 100%;
-  height: auto;
+  height: 100;
   margin: 0 auto 20px;
   border-radius: 50%;
   background: url('../../src/profile.png') no-repeat center center/cover;
