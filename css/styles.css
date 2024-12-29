@@ -26,7 +26,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #1abc9c; /* Green Primary */
-  --bs-secondary: #2c3e50; /* Secondary Dark */
+  --bs-secondary: #d63384; /* Dark Pink for Header */
   --bs-light-pink: #ffe4e1; /* Light Background */
   --bs-body-font-family: "Lato", sans-serif;
   --bs-link-color: #d63384;
@@ -58,7 +58,7 @@ body {
 
 /* Header */
 .header {
-  background-color: var(--bs-secondary);
+  background-color: var(--bs-secondary); /* Dark Pink */
   color: var(--bs-white);
   padding: 40px 20px;
   text-align: center;
@@ -106,10 +106,10 @@ body {
 }
 .profile {
   width: 100%;
-  height: 100;
+  height: auto; /* Ensure image maintains aspect ratio */
   margin: 0 auto 20px;
   border-radius: 50%;
-  background: url('../../src/profile.png') no-repeat center center/cover;
+  background: url('../src/profile.png') no-repeat center center/cover; /* Corrected path */
 }
 .social-links {
   list-style: none;
