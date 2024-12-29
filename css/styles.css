@@ -78,18 +78,13 @@ body {
   min-height: 600px;
 }
 .profile {
-    width: 250px; /* Wider image */
+    width: 200px; /* Wider image */
     height: 250px;
     margin: 0 auto 20px;
     border-radius: 50%; /* Oval shape */
-    object-fit: cover; /* Ensures the image fills the container */
-    background-color: #f0f0f0; /* Placeholder color if image fails to load */
-    overflow: hidden;
-    display: block;
-    background-image: url('../../src/profile.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url('../../src/profile.png') no-repeat center center/cover;
+    background-size: cover; /* Ensure the entire image fits */
+    background-color: #f0f0f0;
 }
 .social-links {
   list-style: none;
@@ -136,7 +131,7 @@ body {
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     overflow: hidden;
     padding-top: 56.25%; /* Aspect ratio 16:9 */
@@ -169,6 +164,8 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    height: 500px; /* Adjust height for a better layout */
+    border-radius: 10px;
     overflow: hidden;
 }
 .spotify-container iframe {
