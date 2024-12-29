@@ -70,40 +70,28 @@ body {
   text-decoration: underline;
 }
 
-/* Profile Panel */
 .profile-panel {
-    width: 100%; /* Full width on smaller screens */
-    max-width: 450px; /* Limit maximum width on larger screens */
-    margin: 0 auto; /* Center it horizontally */
-    padding: 20px;
-    background-color: var(--bs-white);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 20px;
-    text-align: center;
+  background-color: var(--bs-white);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 450px; /* Increased width */
+  text-align: center;
+  position: sticky;
+  top: 20px;
+  min-height: 600px;
 }
 .profile {
-    width: 80%; /* Reduce image width for smaller screens */
-    max-width: 300px; /* Limit maximum width */
-    height: auto; /* Maintain aspect ratio */
+    width: 300px; /* Fixed width */
+    height: 350px; /* Fixed height for oval */
+    max-width: 100%; /* Scale down for smaller screens */
     margin: 0 auto 20px;
     border-radius: 50%; /* Oval shape */
     background: url('../../src/profile.png') no-repeat center center/cover;
-    background-size: cover;
+    background-size: cover; /* Ensure the entire image fits */
     background-color: #f0f0f0;
 }
-@media (max-width: 768px) {
-    .profile {
-        max-width: 200px; /* Smaller size for tablets */
-    }
-}
 
-@media (max-width: 480px) {
-    .profile {
-        max-width: 150px; /* Smallest size for mobile */
-    }
-}
 
 
 .social-links {
