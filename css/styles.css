@@ -78,12 +78,12 @@ body {
   min-height: 500px;
 }
 .profile {
-  width: 80%; /* Adjusts width relative to the panel */
-  height: auto; /* Maintains aspect ratio */
-  max-height: 250px; /* Sets a maximum height to ensure it's an oval */
-  margin: 0 auto 20px;
-  border-radius: 50% / 70%; /* Creates the oval shape */
-  background: url('../src/profile.png') no-repeat center center/cover; /* Ensure this path is correct */
+  width: 150px;
+  height: 200px; /* Adjusted for oval shape */
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image scales correctly */
+  display: block;
+  margin: 0 auto 20px; /* Centered within the panel */
 }
 .social-links {
   list-style: none;
