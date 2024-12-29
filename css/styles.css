@@ -94,25 +94,17 @@ body {
     background-color: #f0f0f0;
 }
 @media (max-width: 768px) {
-    .profile-panel {
-        width: 100%; /* Make the profile panel fill the screen width */
-        padding: 15px; /* Reduce padding for smaller screens */
-        text-align: center;
-    }
     .profile {
-        width: 60%; /* Reduce image size further for mobile */
-        max-width: 200px; /* Limit maximum size */
+        max-width: 200px; /* Smaller size for tablets */
     }
 }
+
 @media (max-width: 480px) {
-    .profile-panel {
-        padding: 10px; /* Further reduce padding for very small screens */
-    }
     .profile {
-        width: 50%; /* Shrink image to half the panel width */
-        max-width: 150px; /* Limit maximum size */
+        max-width: 150px; /* Smallest size for mobile */
     }
 }
+
 
 .social-links {
   list-style: none;
