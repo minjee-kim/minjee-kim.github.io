@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projects - Minjee Kim">
+    <meta name="description" content="Projects by Minjee Kim - Explore my academic and professional work.">
     <title>Projects - Minjee Kim</title>
 
     <!-- Google Fonts -->
@@ -21,53 +21,69 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <h1>Minjee Kim</h1>
-        <p>
-            PhD Student in Statistics 
-            <span class="separator">|</span> 
-            Researcher 
-            <span class="separator">|</span> 
-            Pilates Enthusiast
-        </p>
+        <h1>Projects</h1>
         <nav class="nav-links">
             <a href="../../index.html">Home</a>
-            <a href="../projects/projects.html">Projects</a>
-            <a href="cv.html" class="active">CV</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="../cv/cv.html">CV</a>
             <a href="../publications/publications.html">Publications</a>
         </nav>
     </header>
 
     <!-- Main Content -->
-    <main class="main-content">
-        <section class="content-center">
-            <h2>My Projects</h2>
-            <p>Explore my recent work, including detailed analyses and modeling projects.</p>
-            <div class="panel">
-                <h3>NYC Yellow Cab Demand Analysis</h3>
-                <p>
-                    An in-depth analysis of NYC Yellow Cab data, focusing on spatial and temporal clustering to understand demand trends. 
-                    <a href="yellow_cab.html">Read more</a>.
-                </p>
-            </div>
-            <div class="panel">
-                <h3>Project 2 Name</h3>
-                <p>
-                    A brief description of Project 2 with a focus on its goals and outcomes.
-                    <a href="project2.html">Read more</a>.
-                </p>
-            </div>
-            <div class="panel">
-                <h3>Project 3 Name</h3>
-                <p>
-                    Summary of Project 3, highlighting the key methodologies and insights gained.
-                    <a href="project3.html">Read more</a>.
-                </p>
+    <main class="container py-5">
+        <section>
+            <h2 class="text-center mb-4">Explore My Work</h2>
+            <p class="text-center text-muted mb-5">
+                Below are some highlights from my academic and professional career. Each project demonstrates a unique application of statistical methodologies and analysis techniques.
+            </p>
+
+            <!-- Project Cards -->
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">NYC Yellow Cab Demand Analysis</h5>
+                            <p class="card-text">
+                                A deep dive into NYC Yellow Cab data, analyzing spatial and temporal demand patterns using clustering and visualization techniques.
+                            </p>
+                            <a href="yellow_cab.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Agent-Based Modeling in Epidemiology</h5>
+                            <p class="card-text">
+                                Simulation-based modeling to study the spread of infectious diseases and evaluate intervention strategies.
+                            </p>
+                            <a href="agent_modeling.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Epigenome-Wide Association Studies</h5>
+                            <p class="card-text">
+                                Statistical analysis of aging effects on liver regeneration using epigenome-wide association techniques.
+                            </p>
+                            <a href="ewas.html" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center py-4">
         <p>© 2023 Minjee Kim</p>
     </footer>
 
