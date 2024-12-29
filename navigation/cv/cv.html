@@ -1,10 +1,9 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum Vitae of Minjee Kim, showcasing academic achievements and professional experience.">
     <title>CV - Minjee Kim</title>
     <link rel="stylesheet" href="../../css/styles.css">
 </head>
@@ -22,13 +21,27 @@
     </header>
 
     <!-- Main Content -->
-    <main>
+    <main class="main-content">
         <section class="panel">
             <h2>Curriculum Vitae</h2>
-            <p><a href="Minjee_Kim_CV.pdf" download>Download my CV</a></p>
-            <p>Alternatively, <a href="../publications/publications.html">view specific publications</a>.</p>
+            <p><a href="Minjee_Kim_CV.pdf" download aria-label="Download Minjee Kim's CV">Download my CV</a></p>
+            <p>Alternatively, <a href="../publications/publications.html" aria-label="View publications by Minjee Kim">view specific publications</a>.</p>
+        </section>
+
+        <!-- Embed PDF Viewer -->
+        <section class="panel">
+            <h2>Preview My CV</h2>
+            <iframe 
+                src="Minjee_Kim_CV.pdf" 
+                style="width: 100%; height: 600px; border: none;" 
+                title="Minjee Kim CV">
+            </iframe>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>© 2023 Minjee Kim</p>
+    </footer>
 </body>
 </html>
-
