@@ -1,15 +1,15 @@
 @charset "UTF-8";
 /* Root Variables */
 :root {
-  --bs-teal: #1abc9c; /* Teal for Header */
-  --bs-pink: #d63384; /* Base Pink */
-  --bs-pink-dark: #9b0048; /* Darker Pink */
-  --bs-white: #fff;
-  --bs-gray-dark: #343a40;
-  --bs-light-pink: #ffe4e1; /* Light Background */
-  --bs-body-font-family: "Lato", sans-serif;
-  --bs-link-color: #d63384;
-  --bs-link-hover-color: #9b0048;
+  --bs-header-color: #6a5acd; /* Soft Purple (Header) */
+  --bs-accent: #ff69b4; /* Hot Pink (Accents) */
+  --bs-accent-hover: #db5fa4; /* Slightly darker Hot Pink (Hover) */
+  --bs-background: #f8f4ff; /* Light Lilac (Background) */
+  --bs-panel-color: #ffffff; /* Classic White for Panels */
+  --bs-text-color: #333333; /* Dark Gray for Readability */
+  --bs-secondary-text: #6c757d; /* Subtle Gray for Subtext */
+  --bs-link-color: #ff69b4; /* Match Accents for Links */
+  --bs-link-hover-color: #db5fa4; /* Hover for Links */
 }
 
 /* Global Reset */
