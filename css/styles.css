@@ -71,19 +71,19 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
-  width: 400px; /* Increased width */
+  width: 450px; /* Increased width */
   text-align: center;
   position: sticky;
   top: 20px;
-  min-height: 500px;
+  min-height: 600px;
 }
 .profile {
   width: 150px;
   height: 200px; /* Adjusted for oval shape */
   border-radius: 50%;
   object-fit: cover; /* Ensures the image scales correctly */
-  display: block;
   margin: 0 auto 20px; /* Centered within the panel */
+  background: url('../../src/profile.png')
 }
 .social-links {
   list-style: none;
@@ -122,7 +122,7 @@ body {
 }
 
 .video-section h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 20px;
     color: var(--bs-gray-dark);
 }
