@@ -108,6 +108,64 @@ body {
   gap: 20px;
   padding: 20px;
 }
+
+/* Content Center */
+.content-center {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Video Section */
+.video-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.video-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--bs-gray-dark);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 56.25%; /* Aspect ratio 16:9 */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Spotify Section */
+.spotify-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.spotify-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--bs-gray-dark);
+}
+
+.spotify-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 .text-section {
   flex: 1;
   padding: 20px;
