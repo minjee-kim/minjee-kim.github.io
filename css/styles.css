@@ -91,7 +91,12 @@ body {
     background-color: #f0f0f0; /* Fallback background */
 }
 
-
+@media (max-width: 768px) {
+    .profile {
+        width: 200px; /* Smaller size for mobile */
+        height: 250px;
+    }
+}
 
 
 .social-links {
