@@ -1,15 +1,21 @@
-@charset "UTF-8";
-/* Root Variables */
+
+
+
+
 :root {
-  --bs-header-color: #6a5acd; /* Soft Purple (Header) */
-  --bs-accent: #ff69b4; /* Hot Pink (Accents) */
-  --bs-accent-hover: #db5fa4; /* Slightly darker Hot Pink (Hover) */
-  --bs-background: #f8f4ff; /* Light Lilac (Background) */
-  --bs-panel-color: #ffffff; /* Classic White for Panels */
-  --bs-text-color: #333333; /* Dark Gray for Readability */
-  --bs-secondary-text: #6c757d; /* Subtle Gray for Subtext */
-  --bs-link-color: #ff69b4; /* Match Accents for Links */
-  --bs-link-hover-color: #db5fa4; /* Hover for Links */
+  --header-bg: #f4bfbf; /* Soft Blush Pink */
+  --accent-color: #b56576; /* Muted Rose for Accents */
+  --accent-hover: #a0525c; /* Deeper Rose for Hover */
+  --bg-color: #fffaf5; /* White Marble Background */
+  --panel-bg: #ffffff; /* Clean White Panels */
+  --text-color: #4a4a4a; /* Sophisticated Deep Gray */
+  --subtext-color: #7a7a7a; /* Muted Gray for Subtext */
+  --link-color: #b56576; /* Rose for Links */
+  --link-hover-color: #a0525c; /* Darker Rose for Hover */
+  --button-bg: #f4bfbf; /* Blush Pink Buttons */
+  --button-hover-bg: #e6a5a5; /* Light Blush for Hover */
+  --border-color: #ffe3e3; /* Delicate Pink Borders */
+  --gold-accent: #dab894; /* Muted Gold for Details */
 }
 
 /* Global Reset */
@@ -22,98 +28,92 @@
 }
 
 body {
-  font-family: var(--bs-body-font-family);
+  font-family: "Lato", sans-serif;
   font-size: 1rem;
-  line-height: 1.5;
-  color: var(--bs-gray-dark);
-  background-color: var(--bs-light-pink);
-}
-.separator {
-    margin: 0 10px; /* Adds space around the "|" separator */
-    color: var(--bs-gray-dark); /* Adjust color for better visibility */
-    font-weight: bold; /* Makes the "|" more distinct */
+  line-height: 1.6;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 /* Header */
 .header {
-  background-color: var(--bs-teal); /* Teal Header */
-  color: var(--bs-white);
-  padding: 40px 20px;
+  background-color: var(--header-bg);
+  color: white;
   text-align: center;
+  padding: 40px 20px;
+  border-bottom: 2px solid var(--gold-accent);
 }
+
 .header h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 5px;
-}
-.header p {
-  font-size: 1.25rem;
   margin-bottom: 10px;
 }
-.nav-links {
-  margin: 20px 0;
-  text-align: center;
+
+.header p {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  font-style: italic;
 }
+
+.nav-links {
+  margin-top: 10px;
+}
+
 .nav-links a {
-  color: var(--bs-white); /* White Links */
+  color: white;
   text-decoration: none;
   margin: 0 15px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.nav-links a:hover,
 .nav-links a.active {
-  border-bottom: 2px solid var(--bs-white); /* Highlight for Active Link */
-}
-.nav-links a:hover {
-  color: var(--bs-link-color);
-  text-decoration: underline;
+  color: var(--gold-accent);
+  border-bottom: 2px solid var(--gold-accent);
 }
 
+/* Profile Panel */
 .profile-panel {
-  background-color: var(--bs-white);
+  background-color: var(--panel-bg);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
-  width: 450px; /* Increased width */
+  width: 450px;
   text-align: center;
-  position: sticky;
-  top: 20px;
-  min-height: 600px;
+  border: 1px solid var(--border-color);
 }
+
 .profile {
     width: 250px; 
     height: 300px; 
     margin: 0 auto 20px;
     border-radius: 50%; /* Oval shape */
     background: url('../src/profile.png') no-repeat center center;
-    background-size: cover; /* Ensure the image covers the div */
-    background-color: #f0f0f0; /* Fallback background */
+    background-size: cover;
+    border: 5px solid var(--gold-accent);
 }
-
-@media (max-width: 768px) {
-    .profile {
-        width: 200px; /* Smaller size for mobile */
-        height: 250px;
-    }
-}
-
 
 .social-links {
   list-style: none;
   padding: 0;
   margin-top: 20px;
 }
+
 .social-links li {
   margin: 10px 0;
 }
+
 .social-links a {
   text-decoration: none;
-  color: var(--bs-pink);
+  color: var(--accent-color);
   font-size: 1.1rem;
 }
+
 .social-links a:hover {
-  color: var(--bs-pink-dark);
+  color: var(--accent-hover);
 }
 
 /* Main Content */
@@ -138,14 +138,14 @@ body {
 .video-section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: var(--bs-gray-dark);
+    color: var(--text-color);
 }
 
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 800px; /* Adjust maximum width */
-    margin: 0 auto; /* Center on the page */
+    max-width: 800px;
+    margin: 0 auto;
     padding-top: 56.25%; /* Maintain 16:9 aspect ratio */
     overflow: hidden;
 }
@@ -158,6 +158,7 @@ body {
     height: 100%;
     border: none;
     border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Spotify Section */
@@ -169,7 +170,7 @@ body {
 .spotify-section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: var(--bs-gray-dark);
+    color: var(--text-color);
 }
 
 .spotify-container {
@@ -177,46 +178,36 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    height: 500px; /* Adjust height for a better layout */
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    border: 1px solid var(--gold-accent);
 }
+
 .spotify-container iframe {
     width: 100%;
     height: 100%;
     border: none;
 }
 
-.text-section {
-  flex: 1;
-  padding: 20px;
-}
-.text-section h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.text-section p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-
 /* Panels */
 .panel {
-  background-color: var(--bs-white);
+  background-color: var(--panel-bg);
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  border: 1px solid var(--border-color);
 }
 
 /* Links */
 a {
-  color: var(--bs-link-color);
+  color: var(--link-color);
   text-decoration: none;
   font-weight: bold;
 }
+
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: var(--link-hover-color);
   text-decoration: underline;
 }
 
@@ -227,11 +218,17 @@ a:hover {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .btn-primary {
-  background-color: var(--bs-teal);
-  color: var(--bs-white);
+  background-color: var(--button-bg);
+  color: white;
   border: none;
 }
+
 .btn-primary:hover {
-  background-color: var(--bs-link-hover-color);
+  background-color: var(--button-hover-bg);
 }
+
+
+
+
