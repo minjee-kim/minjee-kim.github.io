@@ -3,19 +3,19 @@
 
 
 :root {
-  --header-bg: #f4bfbf; /* Soft Blush Pink */
-  --accent-color: #b56576; /* Muted Rose for Accents */
-  --accent-hover: #a0525c; /* Deeper Rose for Hover */
-  --bg-color: #fffaf5; /* White Marble Background */
+  --header-bg: #bf4f78; /* Deep Glamorous Pink */
+  --accent-color: #d36fa6; /* Rich Rose for Accents */
+  --accent-hover: #a83d63; /* Deeper Pink for Hover */
+  --bg-color: #fef6f9; /* Soft Light Pink Background */
   --panel-bg: #ffffff; /* Clean White Panels */
-  --text-color: #4a4a4a; /* Sophisticated Deep Gray */
+  --text-color: #333333; /* Sophisticated Deep Gray */
   --subtext-color: #7a7a7a; /* Muted Gray for Subtext */
-  --link-color: #b56576; /* Rose for Links */
-  --link-hover-color: #a0525c; /* Darker Rose for Hover */
-  --button-bg: #f4bfbf; /* Blush Pink Buttons */
-  --button-hover-bg: #e6a5a5; /* Light Blush for Hover */
-  --border-color: #ffe3e3; /* Delicate Pink Borders */
-  --gold-accent: #dab894; /* Muted Gold for Details */
+  --link-color: #d36fa6; /* Rich Rose for Links */
+  --link-hover-color: #a83d63; /* Darker Pink for Hover */
+  --button-bg: #bf4f78; /* Bold Pink Buttons */
+  --button-hover-bg: #a83d63; /* Darker Pink for Hover */
+  --border-color: #f7c5d5; /* Soft Pink Borders */
+  --gold-accent: #cc9966; /* Muted Gold for Details */
 }
 
 /* Global Reset */
@@ -87,13 +87,13 @@ body {
 }
 
 .profile {
-    width: 250px; 
-    height: 300px; 
-    margin: 0 auto 20px;
-    border-radius: 50%; /* Oval shape */
-    background: url('../src/profile.png') no-repeat center center;
-    background-size: cover;
-    border: 5px solid var(--gold-accent);
+  width: 250px; 
+  height: 300px; 
+  margin: 0 auto 20px;
+  border-radius: 50%; /* Oval shape */
+  background: url('../src/profile.png') no-repeat center center;
+  background-size: cover;
+  border: 5px solid var(--gold-accent);
 }
 
 .social-links {
@@ -125,69 +125,69 @@ body {
 
 /* Content Center */
 .content-center {
-    flex: 1;
-    padding: 20px;
+  flex: 1;
+  padding: 20px;
 }
 
 /* Video Section */
 .video-section {
-    text-align: center;
-    margin: 40px 0;
+  text-align: center;
+  margin: 40px 0;
 }
 
 .video-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: var(--text-color);
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--text-color);
 }
 
 .video-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 56.25%; /* Maintain 16:9 aspect ratio */
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 56.25%; /* Maintain 16:9 aspect ratio */
+  overflow: hidden;
 }
 
 .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Spotify Section */
 .spotify-section {
-    text-align: center;
-    margin: 40px 0;
+  text-align: center;
+  margin: 40px 0;
 }
 
 .spotify-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: var(--text-color);
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--text-color);
 }
 
 .spotify-container {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 500px;
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1px solid var(--gold-accent);
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--gold-accent);
 }
 
 .spotify-container iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 /* Panels */
@@ -228,6 +228,7 @@ a:hover {
 .btn-primary:hover {
   background-color: var(--button-hover-bg);
 }
+
 
 
 
