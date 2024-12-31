@@ -143,7 +143,7 @@ body {
 
 .video-container {
   position: relative;
-  width: 100%;
+  width: 80%;
   max-width: 800px;
   margin: 0 auto;
   padding-top: 56.25%; /* Maintain 16:9 aspect ratio */
@@ -154,8 +154,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
