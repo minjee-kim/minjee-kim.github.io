@@ -1,24 +1,22 @@
 
 
 
-
 :root {
-  --header-bg: #bf4f78; /* Deep Glamorous Pink */
-  --accent-color: #d36fa6; /* Rich Rose for Accents */
-  --accent-hover: #a83d63; /* Deeper Pink for Hover */
-  --bg-color: #fef6f9; /* Soft Light Pink Background */
-  --panel-bg: #ffffff; /* Clean White Panels */
-  --text-color: #333333; /* Sophisticated Deep Gray */
-  --subtext-color: #7a7a7a; /* Muted Gray for Subtext */
-  --link-color: #d36fa6; /* Rich Rose for Links */
-  --link-hover-color: #a83d63; /* Darker Pink for Hover */
-  --button-bg: #bf4f78; /* Bold Pink Buttons */
-  --button-hover-bg: #a83d63; /* Darker Pink for Hover */
-  --border-color: #f7c5d5; /* Soft Pink Borders */
-  --gold-accent: #cc9966; /* Muted Gold for Details */
+  --header-bg: #bf4f78;
+  --accent-color: #d36fa6;
+  --accent-hover: #a83d63;
+  --bg-color: #fef6f9;
+  --panel-bg: #ffffff;
+  --text-color: #333333;
+  --subtext-color: #7a7a7a;
+  --link-color: #d36fa6;
+  --link-hover-color: #a83d63;
+  --button-bg: #bf4f78;
+  --button-hover-bg: #a83d63;
+  --border-color: #f7c5d5;
+  --gold-accent: #cc9966;
 }
 
-/* Global Reset */
 *,
 *::before,
 *::after {
@@ -35,7 +33,6 @@ body {
   color: var(--text-color);
 }
 
-/* Header */
 .header {
   background-color: var(--header-bg);
   color: white;
@@ -75,7 +72,6 @@ body {
   border-bottom: 2px solid var(--gold-accent);
 }
 
-/* Profile Panel */
 .profile-panel {
   background-color: var(--panel-bg);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -90,7 +86,7 @@ body {
   width: 250px; 
   height: 300px; 
   margin: 0 auto 20px;
-  border-radius: 50%; /* Oval shape */
+  border-radius: 50%;
   background: url('../src/profile.png') no-repeat center center;
   background-size: cover;
   border: 5px solid var(--gold-accent);
@@ -116,20 +112,17 @@ body {
   color: var(--accent-hover);
 }
 
-/* Main Content */
 .main-content {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
 
-/* Content Center */
 .content-center {
   flex: 1;
   padding: 20px;
 }
 
-/* Video Section */
 .video-section {
   text-align: center;
   margin: 40px 0;
@@ -146,7 +139,7 @@ body {
   width: 80%;
   max-width: 800px;
   margin: 0 auto;
-  padding-top: 56.25%; /* Maintain 16:9 aspect ratio */
+  padding-top: 56.25%;
   overflow: hidden;
 }
 
@@ -161,7 +154,6 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Spotify Section */
 .spotify-section {
   text-align: center;
   margin: 40px 0;
@@ -190,7 +182,6 @@ body {
   border: none;
 }
 
-/* Panels */
 .panel {
   background-color: var(--panel-bg);
   border-radius: 10px;
@@ -199,7 +190,6 @@ body {
   border: 1px solid var(--border-color);
 }
 
-/* Links */
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -211,7 +201,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Buttons */
 .btn {
   padding: 0.75rem 1.5rem;
   border-radius: 0.375rem;
@@ -220,14 +209,8 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: var(--button-bg);
-  color: white;
-  border: none;
-}
+  background-color: var(--button
 
-.btn-primary:hover {
-  background-color: var(--button-hover-bg);
-}
 
 
 
