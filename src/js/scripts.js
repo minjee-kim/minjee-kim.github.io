@@ -15,7 +15,6 @@ window.addEventListener('DOMContentLoaded', event => {
         } else {
             navbarCollapsible.classList.add('navbar-shrink')
         }
-
     };
 
     // Shrink the navbar 
@@ -46,4 +45,12 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // Check for div#main-frame-error presence
+    const mainFrameError = document.querySelector('#main-frame-error');
+    if (mainFrameError) {
+        console.log('Found div#main-frame-error:', mainFrameError);
+    } else {
+        console.log('div#main-frame-error not found.');
+    }
 });
+
