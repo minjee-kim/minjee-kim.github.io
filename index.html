@@ -1,78 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minjee Kim</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Minjee Kim - Personal Website">
+    <meta name="author" content="Minjee Kim">
+    <title>Minjee Kim</title>
+    <link rel="icon" type="image/png" href="/src/assets/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <nav>
-    <div class="container">
-      <h1>Minjee Kim</h1>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <header>
-    <div class="container">
-      <h2>Statistician | Researcher | Data Scientist</h2>
-      <p>Specializing in Bayesian modeling, diagnostic test evaluation, and causal inference.</p>
-    </div>
-  </header>
-
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>I’m a PhD candidate in Statistics at Texas A&M University working on Bayesian latent class models and agent-based simulations for infectious disease modeling.</p>
-    </div>
-  </section>
-
-  <section id="research">
-    <div class="container">
-      <h2>Research</h2>
-      <p>Developing a Bayesian method that estimates disease prevalence and test accuracy even with only two imperfect diagnostic tests.</p>
-    </div>
-  </section>
-
-  <section id="publications">
-    <div class="container">
-      <h2>Publications</h2>
-      <ul>
-        <li>
-          <a href="https://www.mdpi.com/2072-6643/14/12/2545" target="_blank">
-            Lee et al. (2022). *Associations between Dietary Patterns and Mental Health in Korean Adults*. Nutrients.
-          </a>
-        </li>
-        <li>
-          <a href="https://link.springer.com/article/10.1186/s12915-023-01533-1" target="_blank">
-            Kim et al. (2023). *Time-resolved single-cell RNA-seq reveals gene network dynamics during germ layer specification in zebrafish*. BMC Biology.
-          </a>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Email: minjeekim0804@tamu.edu<br>
-         GitHub: <a href="https://github.com/minjee-kim" target="_blank">github.com/minjee-kim</a><br>
-         Google Scholar: <a href="https://scholar.google.com/citations?user=3VLvLesAAAAJ&hl=en" target="_blank">scholar profile</a>
-      </p>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Minjee Kim. All rights reserved.</p>
-    </div>
-  </footer>
+    <header class="header">
+        <h1>Minjee Kim</h1>
+        <p>PhD Student in Statistics @ TAMU <span class="separator">|</span> Researcher <span class="separator">|</span> Pilates Enthusiast</p>
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="navigation/projects/projects.html">Projects</a>
+            <a href="navigation/cv/cv.html">CV</a>
+            <a href="navigation/publications/publications.html">Publications</a>
+        </nav>
+    </header>
+    <section class="main-content d-flex">
+        <aside class="profile-panel">
+            <div class="profile"></div>
+            <h3>Contact</h3>
+            <ul class="social-links">
+                <li><a href="https://linkedin.com/in/minjee-kim" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://scholar.google.com/citations?user=3VLvLesAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a></li>
+                <li><a href="mailto:minjeekim0804@tamu.edu" target="_blank"><i class="fas fa-envelope"></i> Email</a></li>
+            </ul>
+            <section class="panel text-center">
+                <h3>Let's Collaborate!</h3>
+                <p>Interested in my work or have a project in mind? Feel free to reach out!</p>
+                <a href="mailto:minjeekim0804@tamu.edu" class="btn btn-primary">Contact Me</a>
+            </section>
+        </aside>
+        <div class="content-center">
+            <section class="text-section">
+                <h2>Welcome to My Personal Website!</h2>
+                <p>I am a PhD student in Statistics at Texas A&M University, specializing in Bayesian epidemiological modeling to support data-driven decision making in healthcare and public health. My research focuses on developing insightful models to optimize disease prevention strategies and healthcare policy.</p>
+                <p>Explore my portfolio to learn more about my work and achievements.</p>
+            </section>
+        </div>
+    </section>
+    <footer class="text-center">
+        <p>© 2024 Minjee Kim</p>
+    </footer>    
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/scripts.js"></script>
 </body>
 </html>
