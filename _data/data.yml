@@ -24,7 +24,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    PhD student in Statistics @ Texas A&M focused on
+    PhD student in Statistics at Texas A&M focused on
     Bayesian methods for prevalence estimation, diagnostic test evaluation,
     and latent class modeling. I am interested in extending these methods to
     clinical trial design and monitoring through reproducible simulation studies.
@@ -83,13 +83,10 @@ experiences:
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-    - title: Velocity
+    - title: To be added
       link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
-      
+      tagline: ""
 
 publications:
   title: Publications
