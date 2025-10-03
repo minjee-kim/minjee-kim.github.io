@@ -37,14 +37,14 @@ p {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   background: $theme-color;
-  max-width: 1000px;
+  max-width: 1140px;
   margin: 0 auto;
   position: relative;
   @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
 }
 
 .sidebar-wrapper {
-  grid-column: span 3;
+  grid-column: span 4;
   order: $sidebar-order;
   background: $theme-color;
   color: #fff;
@@ -160,7 +160,7 @@ p {
 }
 
 .main-wrapper {
-  grid-column: span 7;
+  grid-column: span 6;
   order: $resume-order;
   background: #fff;
   padding: 60px;
