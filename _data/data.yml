@@ -83,10 +83,12 @@ experiences:
 projects:
   title: Projects
   intro: >
+   Selected projects demonstrating applications of Bayesian modeling, causal inference,
+    and reproducible methods in health and clinical trial contexts.
   assignments:
-    - title: To be added
-      link: "#hook"
-      tagline: ""
+    - title: Double Machine Learning in Clinical Trials
+      link: "https://github.com/minjee-kim/DoubleML-Causal-RCT-Demo"
+      tagline: "Simulated RCT with non-compliance (PLIV) and NHANES observational analysis (IRM)."
 
 publications:
   title: Publications
