@@ -4,7 +4,7 @@
 title: Minjee Kim
 url: 'http://minjee-kim.github.io'
 
-description: Bayesian Methods | Clinical Trials
+description: "Bayesian Methods | Clinical Trials"
 baseurl: ""
 theme_skin: blue # blue turquoise green berry orange ceramic teal oceanstale
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
@@ -16,7 +16,17 @@ analytics: UA-83979019-1
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  
+exclude:
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - .github
+  - scripts
+  - vendor
 # Build settings
 compress-site: yes
 
