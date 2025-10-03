@@ -4,13 +4,13 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Minjee Kim
   tagline: Statistics PhD Student @ Texas A&M University
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: profile.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: minjeekim0804@tamu.edu
@@ -22,78 +22,58 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+   PhD student in Statistics @ Texas A&M focused on
+   Bayesian methods for prevalence estimation, diagnostic test evaluation,
+   and latent class modeling. I am interested in extending these methods to
+   clinical trial design and monitoring through reproducible simulation studies.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree:  PhD Statistics [Expected Graduation: December 2026]
+    university: Texas A&M University
+    time: 2022 - 
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+     Research: Bayesian prevalence estimation, diagnostic test accuracy modeling,
+      latent variable methods. Emphasis on applications in public health and
+      epidemiology.
+      
+  - degree: MS Statistics 
+    university: Texas A&M University
+    time: 2020 - 2022
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Master's thesis: Trained convolutional neural networks with bottleneck 
+      architectures, developing a high-dimensional clustering framework that 
+      improved feature separation in complex datasets.
+      
+
+  - degree: BS Statistics 
+    university: Texas A&M University
+    time: 2017 - 2020
+    details: |
+      Undergraduate research experiences:
+
+      - Undergraduate Summer Research (2018): Applied text analysis to extract 
+        patterns in industrial distribution data, identifying key terms and structures.
+
+      - Undergraduate Summer Research (2019): Dr. Shahina Rahman & Dr. Valen Johnson  
+        Developed high-dimensional clustering simulations for the RJClust R package, 
+        enabling scalability to large biological datasets.
+
+      - Undergraduate Summer Research (2020), PI: Dr. Peter Brown  
+        Modeled UV light curves of Type Ia supernovae, improving characterization of 
+        emission patterns using time-series statistical analysis.
+
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - role: Biostatistics Research Assistant
+  time: Aug 2021 – May 2023
+  company: Institute of Biosciences and Technology, Texas A&M University (Dr. Kurt Zhang Lab), Houston, TX
+  details: |
+    - Applied high-dimensional regression and clustering methods to DNA methylation data, identifying biomarkers linked to disease pathways.
+    - Analyzed NHANES data to evaluate dietary risk factors for hypertension in pregnancy, contributing to peer-reviewed publications.
 
 certifications:
   title: Certifications
@@ -199,25 +179,7 @@ publications:
     link: "#"
     authors: Edgar T. Irons
     conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
-
+    
 skills:
   title: Skills &amp; Proficiency
 
