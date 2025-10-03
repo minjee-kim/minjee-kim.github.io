@@ -18,6 +18,8 @@ sidebar:
   website: https://www.linkedin.com/in/minjee-kim/
   linkedin: minjee-kim
   pdf: /assets/files/Minjee_Kim_Resume.pdf
+  hackerrank: minjeekim0804
+
 
 career-profile:
   title: Career Profile
@@ -104,20 +106,15 @@ publications:
     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
     bibendum fringilla a eu lectus.
   papers:
-    - title: The Art of Computer Programming
-      link: "#"
-      authors: Donald E. Knuth
-      conference: Addison-Wesley, 1968
+    - title: "Epigenome-wide analysis of aging effects on liver regeneration"
+      link: "https://doi.org/10.1186/s12915-023-01533-1"
+      authors: Wang, J., Zhang, W., Liu, X., Kim, M., Ke, Z., Tsai, R.
+      conference: BMC Biology, 21:30 (2023)
 
-    - title: "Genetic Programming III: Darwinian Invention & Problem Solving"
-      link: "#"
-      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-    - title: A syntax directed compiler for Algol 60
-      link: "#"
-      authors: Edgar T. Irons
-      conference: "Comm. ACM 4 (1961), 51–55"
+    - title: "Maternal One-Carbon Supplement Reduced the Risk of Non-Alcoholic Fatty Liver Disease in Male Offspring"
+      link: "https://doi.org/10.3390/nu14122545"
+      authors: Peng, H., Xu, H., Wu, J., Li, J., Wang, X., Liu, Z., Kim, M., Jeon, M.S., Zhang, K.K., Xie, L.
+      conference: Nutrients, 14(12):2545 (2022)
 
 skills:
   title: "Skills & Proficiency"
