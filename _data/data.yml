@@ -53,10 +53,10 @@ education:
     details: |
       Undergraduate research experiences:
 
-      - Undergraduate Summer Research (2018): Applied text analysis to extract 
-        patterns in industrial distribution data, identifying key terms and structures.
+      - Undergraduate Summer Research (2018): PI: Dr. Malini Natarajarathinam
+        Applied text analysis to extract patterns in industrial distribution data, identifying key terms and structures.
 
-      - Undergraduate Summer Research (2019): Dr. Shahina Rahman & Dr. Valen Johnson  
+      - Undergraduate Summer Research (2019): PIs: Dr. Shahina Rahman & Dr. Valen Johnson  
         Developed high-dimensional clustering simulations for the RJClust R package, 
         enabling scalability to large biological datasets.
 
@@ -68,6 +68,13 @@ education:
 experiences:
   title: Experiences
   info:
+  - role: Biostatistics Research Assistant
+  time: Aug 2021 – May 2023
+  company: Institute of Biosciences and Technology, Texas A&M University (Dr. Kurt Zhang Lab), Houston, TX
+  details: |
+    - Applied high-dimensional regression and clustering methods to DNA methylation data, identifying biomarkers linked to disease pathways.
+    - Analyzed NHANES data to evaluate dietary risk factors for hypertension in pregnancy, contributing to peer-reviewed publications.
+    
   - role: Biostatistics Research Assistant
   time: Aug 2021 – May 2023
   company: Institute of Biosciences and Technology, Texas A&M University (Dr. Kurt Zhang Lab), Houston, TX
@@ -141,23 +148,6 @@ projects:
     link: "#"
     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 publications:
   title: Publications
   intro: |
@@ -184,23 +174,17 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
+  - name: R (tidyverse, data.table, ggplot2)
     level: 98%
+    
+  - name: Bayesian modeling (Including Stan/rstan, brms, JAGS)
+    level: 90%
 
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: Reproducible analysis (R Markdown, Quarto, Git/GitHub)
+    level: 90%
+    
+  - name: Python (scientific stack basics)
+    level: 50%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
