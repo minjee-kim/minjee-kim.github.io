@@ -64,6 +64,13 @@ education:
 experiences:
   title: Experiences
   info:
+    - role: PhD Statistics and Data Science Internship
+      time: Summer 2025
+      company: Institute of Biosciences and Technology, Texas A&M University (Dr. Kurt Zhang Lab), Houston, TX
+      details: |
+        - Developed and deployed credible intervals for predictive models, improving reliability of forecast.
+        - Designed repeatability and reproducibility experiments, strengthening product validation.
+        - Built predictive models linking chemical composition to transmission fluid performance to guide the data-driven product development decisions.
     - role: Biostatistics Research Assistant
       time: Aug 2021 – May 2023
       company: Institute of Biosciences and Technology, Texas A&M University (Dr. Kurt Zhang Lab), Houston, TX
@@ -82,22 +89,7 @@ projects:
     - title: Velocity
       link: "#hook"
       tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-    - title: DevStudio
-      link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
-
-    - title: Tempo
-      link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users & investors"
-
-    - title: Atom
-      link: "#"
-      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-    - title: Delta
-      link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      
 
 publications:
   title: Publications
