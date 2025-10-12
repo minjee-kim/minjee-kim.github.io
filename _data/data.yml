@@ -24,10 +24,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    PhD student in Statistics at Texas A&M focused on
-    Bayesian methods for prevalence estimation, diagnostic test evaluation,
-    and latent class modeling. I am interested in extending these methods to
-    clinical trial design and monitoring through reproducible simulation studies.
+    I am a PhD student in Statistics at Texas A&M with hands-on experience in predictive modeling, 
+    uncertainty quantification, and Bayesian methods. My research focuses on developing and 
+    applying Bayesian approaches for prevalence estimation, diagnostic accuracy evaluation, 
+    and latent class modeling, with growing interest in applications to clinical trial 
+    design and simulation-based inference.
 
 education:
   title: Education
