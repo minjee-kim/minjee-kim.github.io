@@ -66,7 +66,8 @@ experiences:
   info:
     - role: PhD Statistics and Data Science Internship
       time: Summer 2025
-      company: Lubrizol Corporation, Wickliffe, OH
+      company: Lubrizol Corporation, Wickliffe, OH 
+      details: |
         - Developed and deployed credible intervals for predictive models, improving reliability of forecast.
         - Designed repeatability and reproducibility experiments, strengthening product validation.
         - Built predictive models linking chemical composition to transmission fluid performance to guide the data-driven product development decisions.
