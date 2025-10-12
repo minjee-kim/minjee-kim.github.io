@@ -32,7 +32,7 @@ career-profile:
 education:
   title: Education
   info:
-    - degree: PhD Statistics (Expected December 2026)
+    - degree: PhD Statistics (Expected May 2027)
       university: "Texas A&M University"
       time: 2022 - Present
       details: |
@@ -66,8 +66,7 @@ experiences:
   info:
     - role: PhD Statistics and Data Science Internship
       time: Summer 2025
-      company: Institute of Biosciences and Technology, Texas A&M University (Dr. Kurt Zhang Lab), Houston, TX
-      details: |
+      company: Lubrizol Corporation, Wickliffe, OH
         - Developed and deployed credible intervals for predictive models, improving reliability of forecast.
         - Designed repeatability and reproducibility experiments, strengthening product validation.
         - Built predictive models linking chemical composition to transmission fluid performance to guide the data-driven product development decisions.
@@ -84,8 +83,11 @@ projects:
   title: Projects
   intro: >
    Selected projects demonstrating applications of Bayesian modeling, causal inference,
-    and reproducible methods in health and clinical trial contexts.
+   and reproducible methods in health and clinical trial contexts.
   assignments:
+    - title: Bayesian Latent Severity
+      link: "https://github.com/minjee-kim/Bayesian-latent-severity-LCA"
+      tagline: "We propose a Bayesian latent class model for disease diagnosis in the absence of a gold standard test, designed for field epidemiologic studies where only a limited number of assays are available."
     - title: Double Machine Learning in Clinical Trials
       link: "https://github.com/minjee-kim/DoubleML-Causal-RCT-Demo"
       tagline: "Simulated RCT with non-compliance (PLIV) and NHANES observational analysis (IRM)."
@@ -93,9 +95,11 @@ projects:
 publications:
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    Below is a selection of my published work in biological and statistical research.
+    My contributions span areas such as epigenomics, metabolic disease, and 
+    quantitative methods for diagnostic accuracy and prevalence estimation. 
+    These publications reflect my interdisciplinary approach at the intersection
+    of data science, biostatistics, and biomedical research.
   papers:
     - title: "Epigenome-wide analysis of aging effects on liver regeneration"
       link: "https://doi.org/10.1186/s12915-023-01533-1"
@@ -111,7 +115,7 @@ skills:
   title: "Skills & Proficiency"
   toolset:
     - name: "R (tidyverse, data.table, ggplot2)"
-      level: 98%
+      level: 100%
     - name: "Bayesian modeling (including Stan/rstan, brms, JAGS)"
       level: 90%
     - name: "Reproducible analysis (R Markdown, Quarto, Git/GitHub)"
