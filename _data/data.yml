@@ -101,7 +101,7 @@ projects:
         Simulated randomized controlled trial with non-compliance (PLIV) and NHANES 
         observational analysis (IRM).
 
-  appliedmodels:
+appliedmodels:
   title: Applied Statistical Modeling
   intro: >
     Selected projects highlighting advanced modeling frameworks for complex data, 
