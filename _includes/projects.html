@@ -1,5 +1,12 @@
-{% assign projects = site.data.data.projects %}
-{% if projects %}
+{% comment %}
+Generic projects partial that can render any section passed in:
+  {% include projects.html section=site.data.data.projects %}
+  {% include projects.html section=site.data.data.appliedmodels %}
+It supports either `assignments` or `works` lists.
+{% endcomment %}
+
+{% assign section = include.section | default: site.data.data.projects %}
+{% if section %}
 <section class="section projects-section">
 
   <h2 class="section-title">
@@ -7,32 +14,30 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
     </span>
-    {{ projects.title }}
+    {{ section.title }}
   </h2>
 
-  {% if projects.intro %}
-  <div class="intro">
-      <p>{{ projects.intro }}</p>
-  </div><!--//intro-->
+  {% if section.intro %}
+    <div class="intro">
+      <p>{{ section.intro }}</p>
+    </div>
   {% endif %}
 
-  {% for project in projects.assignments %}
+  {% assign items = section.assignments | default: section.works %}
+  {% for project in items %}
     <div class="item">
-
       <span class="project-title">
         {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+          <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
         {% else %}
-        {{ project.title }}
+          {{ project.title }}
         {% endif %}
       </span>
-
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+        - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
-
-    </div><!--//item-->
+    </div>
   {% endfor %}
 
-</section><!--//section-->
+</section>
 {% endif %}
