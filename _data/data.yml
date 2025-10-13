@@ -84,15 +84,40 @@ experiences:
 projects:
   title: Projects
   intro: >
-   Selected projects demonstrating applications of Bayesian modeling, causal inference,
-   and reproducible methods in health and clinical trial contexts.
+    Selected projects demonstrating applications of Bayesian modeling, causal inference,
+    and reproducible methods in health and clinical trial contexts.
+
   assignments:
     - title: Bayesian Latent Severity
       link: "https://github.com/minjee-kim/Bayesian-latent-severity-LCA"
-      tagline: "We propose a Bayesian latent class model for disease diagnosis in the absence of a gold standard test, designed for field epidemiologic studies where only a limited number of assays are available."
+      tagline: >
+        We propose a Bayesian latent class model for disease diagnosis in the absence 
+        of a gold standard test, designed for field epidemiologic studies where only a 
+        limited number of assays are available.
+
     - title: Double Machine Learning in Clinical Trials
       link: "https://github.com/minjee-kim/DoubleML-Causal-RCT-Demo"
-      tagline: "Simulated RCT with non-compliance (PLIV) and NHANES observational analysis (IRM)."
+      tagline: >
+        Simulated randomized controlled trial with non-compliance (PLIV) and NHANES 
+        observational analysis (IRM).
+
+  appliedmodels:
+  title: Applied Statistical Modeling
+  intro: >
+    Selected projects highlighting advanced modeling frameworks for complex data, 
+    including zero-inflated count regression and spatio-temporal clustering analyses.
+  works:
+    - title: Spatio-Temporal Clustering of NYC Taxi Demand
+      link: "/files/NYC_Taxi_Spatio_Clustering.pdf"
+      tagline: >
+        A data visualization and clustering analysis of NYC taxi traffic movement patterns 
+        to uncover spatial and temporal demand structures.
+
+    - title: Zero-Inflated Negative Binomial Regression for Disease Counts
+      link: "/files/ZeroInflated_NB_Model.pdf"
+      tagline: >
+        A regression model for overdispersed and zero-inflated infection 
+        counts, identifying key predictors.
 
 publications:
   title: Publications
