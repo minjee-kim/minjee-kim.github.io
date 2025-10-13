@@ -7,6 +7,17 @@
       <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
+    {% if resume %}
+      {% if resume.link %}
+        <a href="{{ resume.link }}" class="sidebar-link btn btn-primary" target="_blank">
+          {{ resume.text | default: "📄 Download Resume (PDF)" }}
+        </a>
+      {% else %}
+        <a href="{{ resume }}" class="sidebar-link btn btn-primary" target="_blank">
+          📄 Download Resume (PDF)
+        </a>
+      {% endif %}
+    
     {% if sidebar.name %}
       <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
