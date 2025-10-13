@@ -15,20 +15,6 @@
       <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
-    {# ----- Resume button (string or object) ----- #}
-    {% assign resume = sidebar.resume %}
-    {% if resume %}
-      {% if resume.link %}
-        <a href="{{ resume.link }}" class="sidebar-link btn btn-primary" target="_blank">
-          {{ resume.text | default: "📄 Download Resume (PDF)" }}
-        </a>
-      {% else %}
-        <a href="{{ resume }}" class="sidebar-link btn btn-primary" target="_blank">
-          📄 Download Resume (PDF)
-        </a>
-      {% endif %}
-    {% endif %}
-
   </div><!--//profile-container-->
 
   {% include contact.html %}
