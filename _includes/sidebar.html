@@ -15,6 +15,17 @@
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
+    {% if site.data.sidebar.resume %}
+  <a href="{{ site.data.sidebar.resume.link }}" class="sidebar-link" target="_blank">
+    {{ site.data.sidebar.resume.text }}
+  </a>
+
+    
+{% endif %}
+
+
+    
+
   </div><!--//profile-container-->
 
   {% include contact.html %}
