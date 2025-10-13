@@ -15,6 +15,7 @@
       <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
+    {# Resume button supports string OR object #}
     {% assign resume = sidebar.resume %}
     {% if resume %}
       {% if resume.link %}
@@ -26,32 +27,6 @@
           📄 Download Resume (PDF)
         </a>
       {% endif %}
-    {% endif %}
-
-  </div><!--//profile-container-->
-
-  {% include contact.html %}
-
-  {% if sidebar.education %}
-    {% include education.html %}
-  {% endif %}
-
-  {% include language.html %}
-  {% include interests.html %}
-
-  {% if sidebar.about %}
-    {% include about.html %}
-  {% endif %}
-
-</div><!--//sidebar-wrapper-->
-
-    
-    {% if sidebar.name %}
-      <h1 class="name">{{ sidebar.name }}</h1>
-    {% endif %}
-
-    {% if sidebar.tagline %}
-      <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
 
   </div><!--//profile-container-->
