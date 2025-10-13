@@ -43,6 +43,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.blog %}
+    <li><i class="fas fa-rss"></i>
+      <a href="{{ sidebar.blog }}" target="_blank">Blog</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.xing %}
     <li class="xing"><i class="fab fa-xing"></i>
       <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>
