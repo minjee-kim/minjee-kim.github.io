@@ -103,7 +103,7 @@ projects:
       including zero-inflated count regression and spatio-temporal clustering analyses.
     works:
       - title: Spatio-Temporal Clustering of NYC Taxi Demand
-        link: "/assets/files/NYC_Taxi_Spatio_Clustering.pdf"
+        link: "/assets/files/NYC_Spatio_Clustering.pdf"
         tagline: >
           A data visualization and clustering analysis of NYC taxi traffic movement patterns 
           to uncover spatial and temporal demand structures.
