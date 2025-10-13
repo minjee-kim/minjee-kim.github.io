@@ -1,6 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
 
 sidebar:
   position: right
@@ -14,11 +11,13 @@ sidebar:
 
   # Sidebar links
   email: minjeekim0804@tamu.edu
-  timezone: America/Chicago
-  website: https://www.linkedin.com/in/minjee-kim/
-  linkedin: minjee-kim
-  pdf: /assets/files/Minjee_Kim_Resume.pdf
+  linkedin: https://www.linkedin.com/in/minjee-kim/
+  blog: https://statsandthecity.weebly.com/
   hackerrank: minjeekim0804
+  resume:
+  text: "📄 View Resume"
+  link: "/assets/files/Minjee_Kim_Resume.pdf"
+
 
 
 career-profile:
