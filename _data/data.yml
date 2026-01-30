@@ -90,12 +90,12 @@ projects:
         of a gold standard test, designed for field epidemiologic studies where only a 
         limited number of assays are available.
 
-    - title: Double Machine Learning in Clinical Trials
-      link: "https://github.com/minjee-kim/DoubleML-Causal-RCT-Demo"
-      tagline: >
-        Simulated randomized controlled trial with non-compliance (PLIV) and NHANES 
-        observational analysis (IRM).
-
+    - title: Geospatial Clustering
+      link: "https://github.com/minjee-kim/New-York-Taxi-Cab-Demand-Analysis"
+        tagline: >
+          We analyze the Yellow Cab trip record from https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page 
+          to reveal the weekly customer demand patterns. 
+    
   appliedmodels:
     title: Applied Statistical Modeling
     intro: >
