@@ -16,7 +16,8 @@ career-profile:
   title: Overview
   summary: |
     I am a PhD student in Statistics at Texas A&M specializing in hierarchical modeling, uncertainty quantification, and model validation. 
-
+    I value collaborative problem-solving, mentorship, and communicating statistical work with clarity and transparency. 
+    
     Check out our recent publication: [Bayesian disease modeling with latent class analysis](https://www.nature.com/articles/s41467-025-66515-z)
 
 education:
@@ -75,6 +76,7 @@ experiences:
         - Developed and deployed credible intervals for predictive models, improving reliability of forecast.
         - Designed repeatability and reproducibility experiments, strengthening product validation.
         - Built predictive models linking chemical composition to transmission fluid performance to guide the data-driven product development decisions.
+        
     - role: Biostatistics Research Assistant
       time: Aug 2021 – May 2023
       company: Institute of Biosciences and Technology, Texas A&M University (Dr. Kurt Zhang Lab), Houston, TX
