@@ -17,13 +17,9 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I am a PhD student in Statistics at Texas A&M with hands-on experience in predictive modeling, 
-    uncertainty quantification, and Bayesian methods. My research focuses on developing and 
-    applying Bayesian approaches for prevalence estimation, diagnostic accuracy evaluation, 
-    and latent class modeling, with growing interest in applications to clinical trial 
-    design and simulation-based inference.
+    I am a PhD student in Statistics at Texas A&M specializing in hierarchical modeling, uncertainty quantification, and model validation. 
 
-    Check out our recent publication: [Prevalence study in Cameroon identifies Brucella abortus as the endemic Brucella species in livestock](https://www.nature.com/articles/s41467-025-66515-z)
+    Check out our recent publication: [Bayesian disease modeling with latent class analysis](https://www.nature.com/articles/s41467-025-66515-z)
 
 education:
   title: Education
