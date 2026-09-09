@@ -19,13 +19,16 @@ h6 {
 }
 
 a {
-  color: darken($theme-color, 15%);
+  color: #2563EB;
+
   &:hover {
+    color: #1D4ED8;
     text-decoration: underline;
-    color: darken($theme-color, 30%);
   }
+
   &:focus {
-    text-decoration: none;
+    color: #1D4ED8;
+    text-decoration: underline;
   }
 }
 
@@ -64,13 +67,14 @@ p {
     margin-top: 0;
     margin-bottom: 10px;
   }
-  .tagline {
-    color: rgba(256, 256, 256, 0.6);
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+ .tagline {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0;
+ }
   .profile {
     margin-bottom: 15px;
   }
