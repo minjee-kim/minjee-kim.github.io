@@ -62,6 +62,14 @@ education:
 experiences:
   title: Experiences
   info:
+    - role: Instructor, STAT 211 - Principles of Statistics I
+      time: Fall 2026
+      company: Department of Statistics, Texas A&M University, College Station, TX
+      details: |
+        - Serve as instructor for an undergraduate introductory statistics course covering probability, statistical inference, hypothesis testing, and regression.
+        - Teach students to perform exploratory and inferential statistical analyses using R and interpret results in real-world contexts.
+        - Develop and deliver course materials, assessments, and statistical computing instruction for an asynchronous online course.
+        
     - role: PhD Statistics and Data Science Internship
       time: Summer 2025
       company: Lubrizol Corporation, Wickliffe, OH 
