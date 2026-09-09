@@ -119,7 +119,7 @@ projects:
         test is available.
 
     - title: Geospatial Clustering
-      link: "https://github.com/minjee-kim/New-York-Taxi-Cab-Demand-Analysis"
+      link: "/assets/files/NYC_Spatio_Clustering.pdf"
       tagline: >
         Geospatial analysis of New York City taxi trips to identify spatial
         and weekly patterns in passenger demand.
