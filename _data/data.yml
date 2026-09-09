@@ -95,14 +95,8 @@ projects:
         tagline: >
           We analyze the Yellow Cab trip record from https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page 
           to reveal the weekly customer demand patterns. 
-
-    
-  appliedmodels:
-    title: Applied Statistical Modeling
-    intro: >
-      Selected projects highlighting applied modeling experience. 
-    works:
-      - title: Zero-Inflated Negative Binomial Regression for Counts
+          
+    - title: Zero-Inflated Negative Binomial Regression for Counts
         link: "/assets/files/ZeroInflated_NB_Model.pdf"
         tagline: >
           A regression model for overdispersed and zero-inflated infection 
