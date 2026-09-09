@@ -50,8 +50,6 @@ education:
           - Undergraduate Summer Research (2019), PIs: Dr. Shahina Rahman & Dr. Valen Johnson —
             developed high-dimensional clustering simulations for the RJClust R package,
             enabling scalability to large biological datasets.
-          - Undergraduate Summer Research (2020), PI: Dr. Peter Brown —
-            modeled UV light curves of Type Ia supernovae using time-series analysis.
 
 experiences:
   title: Experiences
@@ -83,16 +81,17 @@ experiences:
 projects:
   title: Projects
   intro: >
-    Selected projects demonstrating applications of Bayesian modeling, causal inference,
-    and reproducible methods in health and clinical trial contexts.
+    Selected work in experimentation, causal inference, Bayesian modeling,
+    and applied statistical analysis.
 
   assignments:
+
     - title: A/B Testing and Experimental Design
       link: "https://github.com/minjee-kim/ab-testing"
       tagline: >
-        Analysis of randomized product experiments, including
-        metric definition, power and sample size calculations, treatment-effect
-        estimation, uncertainty quantification, and experiment diagnostics.
+        Analysis of randomized product experiments, including metric definition,
+        power and sample size calculations, treatment-effect estimation,
+        uncertainty quantification, and experiment diagnostics.
 
     - title: Double/Debiased Machine Learning for Causal Inference
       link: "https://github.com/minjee-kim/Double-Debiased-ML"
@@ -100,34 +99,30 @@ projects:
         Applications of Double Machine Learning for causal effect estimation,
         including randomized trials with non-compliance and observational data
         with high-dimensional confounding.
-        
-    - title: Bayesian Latent Severity
+
+    - title: Bayesian Latent Severity Modeling
       link: "https://github.com/minjee-kim/Bayesian-latent-severity-LCA"
       tagline: >
-        We propose a Bayesian latent class model for disease diagnosis in the absence 
-        of a gold standard test, designed for field epidemiologic studies where only a 
-        limited number of assays are available.
+        Bayesian latent class modeling extended with a latent severity variable
+        to reduce model complexity and improve estimation of disease prevalence
+        and diagnostic test accuracy when data are limited and no gold standard
+        test is available.
 
     - title: Geospatial Clustering
       link: "https://github.com/minjee-kim/New-York-Taxi-Cab-Demand-Analysis"
       tagline: >
-        We analyze the Yellow Cab trip record from https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-        to reveal the weekly customer demand patterns.
-          
-    - title: Zero-Inflated Negative Binomial Regression for Counts
+        Geospatial analysis of New York City taxi trips to identify spatial
+        and weekly patterns in passenger demand.
+
+    - title: Zero-Inflated Negative Binomial Regression
       link: "/assets/files/ZeroInflated_NB_Model.pdf"
       tagline: >
-        A regression model for overdispersed and zero-inflated infection
-        counts, identifying key predictors.
+        Modeling overdispersed and zero-inflated infection counts to identify
+        important predictors and characterize variation in count outcomes.
 
 publications:
   title: Publications
   intro: |
-    Below is a selection of my published work in biological and statistical research.
-    My contributions span areas such as epigenomics, metabolic disease, and 
-    quantitative methods for diagnostic accuracy and prevalence estimation. 
-    These publications reflect my interdisciplinary approach at the intersection
-    of data science, biostatistics, and biomedical research.
   papers:
     - title: "Epigenome-wide analysis of aging effects on liver regeneration"
       link: "https://doi.org/10.1186/s12915-023-01533-1"
