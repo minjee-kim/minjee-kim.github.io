@@ -5,7 +5,7 @@ sidebar:
   education: true
 
   name: Minjee Kim
-  tagline: "Statistics PhD Student @ Texas A&M University"
+  tagline: "Statistics PhD| Bayesian Modeling & Uncertainty"
   avatar: profile.jpeg
 
   email: minjeekim0804@tamu.edu
@@ -85,6 +85,20 @@ projects:
     and reproducible methods in health and clinical trial contexts.
 
   assignments:
+    - title: A/B Testing and Experimental Design
+      link: "https://github.com/minjee-kim/ab-testing"
+      tagline: >
+        Analysis of randomized product experiments, including
+        metric definition, power and sample size calculations, treatment-effect
+        estimation, uncertainty quantification, and experiment diagnostics.
+
+    - title: Double/Debiased Machine Learning for Causal Inference
+      link: "https://github.com/minjee-kim/Double-Debiased-ML"
+      tagline: >
+        Applications of Double Machine Learning for causal effect estimation,
+        including randomized trials with non-compliance and observational data
+        with high-dimensional confounding.
+        
     - title: Bayesian Latent Severity
       link: "https://github.com/minjee-kim/Bayesian-latent-severity-LCA"
       tagline: >
