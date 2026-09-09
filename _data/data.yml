@@ -92,9 +92,9 @@ projects:
 
     - title: Geospatial Clustering
       link: "https://github.com/minjee-kim/New-York-Taxi-Cab-Demand-Analysis"
-        tagline: >
-          We analyze the Yellow Cab trip record from https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page 
-          to reveal the weekly customer demand patterns. 
+      tagline: >
+        We analyze the Yellow Cab trip record from https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+        to reveal the weekly customer demand patterns.
           
     - title: Zero-Inflated Negative Binomial Regression for Counts
         link: "/assets/files/ZeroInflated_NB_Model.pdf"
