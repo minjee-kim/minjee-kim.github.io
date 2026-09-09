@@ -124,6 +124,11 @@ publications:
   title: Publications
   intro: |
   papers:
+    - title: "Prevalence study in Cameroon identifies Brucella abortus as the endemic Brucella species in livestock"
+      link: "https://doi.org/10.1038/s41467-025-66515-z"
+      authors: Guela, G.K., Laine, C.G., Gontao, P., Gomsu Dada, C.O., Abiba, H., Desire, D.P., Mbacham, W., Garcia-Gonzalez, D., Vection, S., Gillece, J.D., Kim, M., Johnson, V.E., Foster, J.T., Wade, A., Arenas-Gamboa, A.M.
+      conference: Nature Communications, 16:11600 (2025)
+      
     - title: "Epigenome-wide analysis of aging effects on liver regeneration"
       link: "https://doi.org/10.1186/s12915-023-01533-1"
       authors: Wang, J., Zhang, W., Liu, X., Kim, M., Ke, Z., Tsai, R.
