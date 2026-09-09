@@ -54,6 +54,14 @@ education:
 experiences:
   title: Experience
   info:
+    - role: Doctoral Researcher in Statistics
+      time: 2022 - Present
+      company: Texas A&M University
+      details: |
+        - Develop Bayesian hierarchical and latent-variable models for prevalence estimation and diagnostic testing without a gold standard.
+        - Design simulation studies to evaluate identifiability, parameter recovery, robustness, and uncertainty quantification.
+        - Develop a latent severity extension to reduce model complexity and improve estimation in sparse-data settings.
+      
     - role: Instructor, STAT 211 - Principles of Statistics I
       time: Fall 2026
       company: Department of Statistics, Texas A&M University, College Station, TX
