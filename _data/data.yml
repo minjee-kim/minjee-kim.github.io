@@ -86,16 +86,16 @@ experiences:
       details: |
         - Study identifiability in latent-variable models under heterogeneous observation designs using analytical and computational methods.
         - Develop Bayesian hierarchical models for prevalence estimation and diagnostic testing without a gold standard.
-        - Design simulation studies to evaluate parameter recovery, robustness, and uncertainty quantification.
+        - Simulations to evaluate parameter recovery, robustness, and uncertainty quantification.
         - Develop latent-variable extensions that reduce model complexity and improve estimation in sparse-data settings.
       
     - role: Instructor, STAT 211 - Principles of Statistics I
       time: Fall 2026
       company: Department of Statistics, Texas A&M University, College Station, TX
       details: |
-        - Teach core probability and statistical concepts including random variables, probability distributions, expectation, variance, conditional probability, independence, and the normal distribution.
-        - Develop instruction in statistical inference, sampling distributions, hypothesis testing, regression, and statistical computing in R.
-              
+        - Teach foundational probability concepts including random variables, discrete and continuous distributions, expectation, variance, conditional probability, independence, and normality.
+        - Teach statistical reasoning through sampling distributions, estimation, hypothesis testing, regression, and computational analysis in R.
+                    
     - role: PhD Statistics and Data Science Internship
       time: Summer 2025
       company: Lubrizol Corporation, Wickliffe, OH 
