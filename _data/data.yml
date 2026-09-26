@@ -93,10 +93,9 @@ experiences:
       time: Fall 2026
       company: Department of Statistics, Texas A&M University, College Station, TX
       details: |
-        - Serve as instructor for an undergraduate introductory statistics course covering probability, statistical inference, hypothesis testing, and regression.
-        - Teach students to perform exploratory and inferential statistical analyses using R and interpret results in real-world contexts.
-        - Develop and deliver course materials, assessments, and statistical computing instruction for an asynchronous online course.
-        
+        - Teach core probability and statistical concepts including random variables, probability distributions, expectation, variance, conditional probability, independence, and the normal distribution.
+        - Develop instruction in statistical inference, sampling distributions, hypothesis testing, regression, and statistical computing in R.
+              
     - role: PhD Statistics and Data Science Internship
       time: Summer 2025
       company: Lubrizol Corporation, Wickliffe, OH 
