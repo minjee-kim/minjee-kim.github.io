@@ -38,7 +38,7 @@ p {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(20, 1fr);
   background: $theme-color;
   max-width: 1140px;
   margin: 0 auto;
@@ -47,7 +47,7 @@ p {
 }
 
 .sidebar-wrapper {
-  grid-column: span 3.5;
+  grid-column: span 7;
   order: $sidebar-order;
   background: $theme-color;
   color: #fff;
@@ -166,7 +166,7 @@ p {
 }
 
 .main-wrapper {
-  grid-column: span 6.5;
+  grid-column: span 13;
   order: $resume-order;
   background: #FCFBF8;
   padding: 60px;
@@ -250,7 +250,7 @@ p {
   }
 
   .publication-title {
-    font-size: 1ypx;
+    font-size: 17px;
     font-weight: 400;
     color: $text-color;
     margin-bottom: 1px;
