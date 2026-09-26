@@ -27,29 +27,14 @@ education:
     - degree: PhD Statistics (Expected May 2027)
       university: "Texas A&M University"
       time: 2022 - Present
-      details: |
-        Research: Bayesian prevalence estimation, diagnostic test accuracy modeling,
-        latent variable methods. Emphasis on applications in public health and
-        epidemiology.
 
     - degree: MS Statistics
       university: "Texas A&M University"
       time: 2020 - 2022
-      details: |
-        Master's thesis: Trained convolutional neural networks with bottleneck
-        architectures, developing a high-dimensional clustering framework that
-        improved feature separation in complex datasets.
 
     - degree: BS Statistics
       university: "Texas A&M University"
       time: 2017 - 2020
-      details: |
-        Undergraduate research experiences:
-          - Undergraduate Summer Research (2018), PI: Dr. Malini Natarajarathinam —
-            applied text analysis to extract patterns in industrial distribution data.
-          - Undergraduate Summer Research (2019), PIs: Dr. Shahina Rahman & Dr. Valen Johnson —
-            developed high-dimensional clustering simulations for the RJClust R package,
-            enabling scalability to large biological datasets.
 
 projects:
   title: Selected Research & Projects
@@ -60,10 +45,9 @@ projects:
 
     - title: Identifiability in Latent-Variable Models
       tagline: >
-        Theoretical and computational study of identifiability in latent-variable
-        models under heterogeneous observation designs. Uses Jacobian rank,
-        null-space analysis, and experimental-design structure to characterize
-        when prevalence and diagnostic-accuracy parameters can be uniquely recovered.
+        Study of identifiability in latent-variable models under heterogeneous observation designs using Jacobian rank, 
+        null-space analysis, and experimental-design structure to characterize when 
+        prevalence and diagnostic-accuracy parameters can be uniquely recovered.
 
     - title: Bayesian Latent Severity Modeling
       link: "https://github.com/minjee-kim/Bayesian-latent-severity-LCA"
@@ -75,15 +59,15 @@ projects:
 
     - title: Hierarchical Global Prevalence Estimation
       tagline: >
-        Bayesian hierarchical modeling of disease prevalence across studies,
-        regions, and countries using heterogeneous diagnostic study designs,
-        imperfect tests, and uncertainty in test accuracy.
+        Bayesian hierarchical estimation of disease prevalence across studies, 
+        regions, and countries by combining heterogeneous diagnostic study designs
+        with imperfect-test information and uncertainty in diagnostic accuracy.
 
     - title: Uncertainty Propagation for Global Economic Loss
       tagline: >
-        Framework for propagating uncertainty in disease prevalence, livestock
-        populations, and economic inputs to estimate country-level and global
-        distributions of economic loss.
+        Propagating posterior uncertainty in disease prevalence together with
+        uncertainty in livestock populations and economic inputs to estimate
+        country-level and global distributions of economic loss.
 
     - title: A/B Testing and Experimental Design
       link: "https://github.com/minjee-kim/ab-testing"
@@ -100,9 +84,10 @@ experiences:
       time: 2022 - Present
       company: Texas A&M University
       details: |
-        - Develop Bayesian hierarchical and latent-variable models for prevalence estimation and diagnostic testing without a gold standard.
-        - Design simulation studies to evaluate identifiability, parameter recovery, robustness, and uncertainty quantification.
-        - Develop a latent severity extension to reduce model complexity and improve estimation in sparse-data settings.
+        - Study identifiability in latent-variable models under heterogeneous observation designs using analytical and computational methods.
+        - Develop Bayesian hierarchical models for prevalence estimation and diagnostic testing without a gold standard.
+        - Design simulation studies to evaluate parameter recovery, robustness, and uncertainty quantification.
+        - Develop latent-variable extensions that reduce model complexity and improve estimation in sparse-data settings.
       
     - role: Instructor, STAT 211 - Principles of Statistics I
       time: Fall 2026
