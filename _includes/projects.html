@@ -25,17 +25,17 @@ It supports either `assignments` or `works` lists.
 
   {% assign items = section.assignments | default: section.works %}
   {% for project in items %}
-    <div class="item">
-      <span class="project-title">
-        {% if project.link %}
-          <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-          {{ project.title }}
-        {% endif %}
-      </span>
-      {% if project.tagline %}
-        - <span class="project-tagline">{{ project.tagline }}</span>
+    <div class="project-title">
+      {% if project.link %}
+        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+      {% else %}
+        {{ project.title }}
       {% endif %}
+    </div>
+    
+    {% if project.tagline %}
+      <div class="project-tagline">{{ project.tagline }}</div>
+    {% endif %}
     </div>
   {% endfor %}
 
