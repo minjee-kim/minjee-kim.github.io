@@ -20,7 +20,7 @@ career-profile:
     I am a PhD student in Statistics at Texas A&M specializing in hierarchical modeling, uncertainty quantification, and model validation. 
     I value collaborative problem-solving, mentorship, and communicating statistical work with clarity and transparency. 
     
-    Check out our recent publication: [Bayesian disease modeling with latent class analysis](https://www.nature.com/articles/s41467-025-66515-z)
+    Featured publication: Bayesian latent-class modeling for disease prevalence estimation — Nature Communications (2025)
 
 education:
   title: Education
@@ -52,6 +52,49 @@ education:
             developed high-dimensional clustering simulations for the RJClust R package,
             enabling scalability to large biological datasets.
 
+projects:
+  title: Projects
+  intro: >
+    Selected work in experimentation, causal inference, Bayesian modeling,
+    and applied statistical analysis.
+
+  assignments:
+
+    - title: Identifiability in Latent-Variable Models
+      tagline: >
+        Theoretical and computational study of identifiability in latent-variable
+        models under heterogeneous observation designs. Uses Jacobian rank,
+        null-space analysis, and experimental-design structure to characterize
+        when prevalence and diagnostic-accuracy parameters can be uniquely recovered.
+
+    - title: Bayesian Latent Severity Modeling
+      link: "https://github.com/minjee-kim/Bayesian-latent-severity-LCA"
+      tagline: >
+        Bayesian latent class modeling with a continuous latent severity variable
+        for estimating disease prevalence and diagnostic test accuracy without a
+        gold standard, with emphasis on model reduction, parameter recovery,
+        and uncertainty quantification.
+
+    - title: Hierarchical Global Prevalence Estimation
+      tagline: >
+        Bayesian hierarchical modeling of disease prevalence across studies,
+        regions, and countries using heterogeneous diagnostic study designs,
+        imperfect tests, and uncertainty in test accuracy.
+
+    - title: Uncertainty Propagation for Global Economic Loss
+      tagline: >
+        Framework for propagating uncertainty in disease prevalence, livestock
+        populations, and economic inputs to estimate country-level and global
+        distributions of economic loss.
+
+    - title: A/B Testing and Experimental Design
+      link: "https://github.com/minjee-kim/ab-testing"
+      tagline: >
+        Analysis of randomized product experiments including metric definition,
+        power and sample-size calculations, treatment-effect estimation,
+        uncertainty quantification, and experiment diagnostics.
+
+        
 experiences:
   title: Experience
   info:
@@ -88,47 +131,6 @@ experiences:
         - Analyzed NHANES data to evaluate dietary risk factors for hypertension in pregnancy,
           contributing to peer-reviewed publications.
 
-projects:
-  title: Projects
-  intro: >
-    Selected work in experimentation, causal inference, Bayesian modeling,
-    and applied statistical analysis.
-
-  assignments:
-
-    - title: A/B Testing and Experimental Design
-      link: "https://github.com/minjee-kim/ab-testing"
-      tagline: >
-        Analysis of randomized product experiments, including metric definition,
-        power and sample size calculations, treatment-effect estimation,
-        uncertainty quantification, and experiment diagnostics.
-
-    - title: Double/Debiased Machine Learning for Causal Inference
-      link: "https://github.com/minjee-kim/Double-Debiased-ML"
-      tagline: >
-        Applications of Double Machine Learning for causal effect estimation,
-        including randomized trials with non-compliance and observational data
-        with high-dimensional confounding.
-
-    - title: Bayesian Latent Severity Modeling
-      link: "https://github.com/minjee-kim/Bayesian-latent-severity-LCA"
-      tagline: >
-        Bayesian latent class modeling extended with a latent severity variable
-        to reduce model complexity and improve estimation of disease prevalence
-        and diagnostic test accuracy when data are limited and no gold standard
-        test is available.
-
-    - title: Geospatial Clustering
-      link: "/assets/files/NYC_Spatio_Clustering.pdf"
-      tagline: >
-        Geospatial analysis of New York City taxi trips to identify spatial
-        and weekly patterns in passenger demand.
-
-    - title: Zero-Inflated Negative Binomial Regression
-      link: "/assets/files/ZeroInflated_NB_Model.pdf"
-      tagline: >
-        Modeling overdispersed and zero-inflated infection counts to identify
-        important predictors and characterize variation in count outcomes.
 
 publications:
   title: Publications
