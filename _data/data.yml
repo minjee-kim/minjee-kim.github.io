@@ -52,10 +52,9 @@ education:
             enabling scalability to large biological datasets.
 
 projects:
-  title: Projects
+  title: Selected Research & Projects
   intro: >
-    Selected work in experimentation, causal inference, Bayesian modeling,
-    and applied statistical analysis.
+    Selected work in statistical identifiability, Bayesian inference, simulation, and uncertainty quantification.
 
   assignments:
 
