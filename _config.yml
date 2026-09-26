@@ -4,7 +4,7 @@
 
 # Site Settings
 title: Minjee Kim
-url: "https://minjeekim.github.io"   # use HTTPS; change if using a custom domain
+url: "https://minjee-kim.github.io"   # use HTTPS; change if using a custom domain
 baseurl: ""                           # "" for user site; "/<repo-name>" for project site
 description: "Bayesian Methods | Clinical Trials"
 theme_skin: blue                      # blue turquoise green berry orange ceramic teal oceanstale
