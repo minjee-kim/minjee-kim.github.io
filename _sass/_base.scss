@@ -233,11 +233,13 @@ p {
     color: darken($theme-color, 15%);
   }
   .projects-section {
-    .intro {
-      margin-bottom: 30px;
-    }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 24px;
+    }
+  
+    .project-title {
+      margin-bottom: 4px;
+      font-weight: 500;
     }
   }
   .oss-section {
