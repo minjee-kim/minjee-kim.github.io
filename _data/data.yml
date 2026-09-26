@@ -17,10 +17,9 @@ sidebar:
 career-profile:
   title: Overview
   summary: |
-    I am a PhD student in Statistics at Texas A&M specializing in hierarchical modeling, uncertainty quantification, and model validation. 
-    I value collaborative problem-solving, mentorship, and communicating statistical work with clarity and transparency. 
-    
-    Featured publication: Bayesian latent-class modeling for disease prevalence estimation — Nature Communications (2025)
+    I am a PhD student in Statistics at Texas A&M studying statistical inference when the underlying state is not directly observed and measurements are imperfect. My research focuses on identifiability, Bayesian hierarchical and latent-variable models, simulation-based validation, and uncertainty propagation.
+
+    Featured publication: [Bayesian latent-class modeling for disease prevalence estimation — Nature Communications (2025)](https://www.nature.com/articles/s41467-025-66515-z)
 
 education:
   title: Education
