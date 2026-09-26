@@ -6,7 +6,7 @@
 title: Minjee Kim
 url: "https://minjee-kim.github.io"   # use HTTPS; change if using a custom domain
 baseurl: ""                           # "" for user site; "/<repo-name>" for project site
-description: "Bayesian Methods | Clinical Trials"
+description: "Statistics PhD | Bayesian Inference, Identifiability & Uncertainty Quantification"
 theme_skin: blue                      # blue turquoise green berry orange ceramic teal oceanstale
 chrome_mobile_color:                  # e.g., "#1976d2" or leave empty
 
