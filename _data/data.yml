@@ -3,7 +3,7 @@ sidebar:
   position: right
   about: false
   education: true
-
+  pdf: /assets/minjee-kim-cv.pdf
   name: Minjee Kim
   tagline: "PhD candidate in Statistics, Texas A&M"
   avatar: profile.jpeg
