@@ -5,106 +5,72 @@ sidebar:
   education: true
 
   name: Minjee Kim
-  tagline: "Statistics PhD · inference under unobserved state and imperfect measurement"
+  tagline: "PhD candidate in Statistics, Texas A&M"
   avatar: profile.jpeg
 
   email: minjeekim0804@tamu.edu
   linkedin: minjee-kim
   github: minjee-kim
-  # pdf: /assets/minjee-kim-cv.pdf
-
-  interests:
-    title: Research
-    info:
-      - item: Identifiability
-      - item: Latent-variable models
-      - item: Hierarchical Bayes
-      - item: Uncertainty propagation
 
 career-profile:
   title: Research
   summary: |
-    I work on statistical inference when the object of interest is latent and every measurement is noisy. The first problem is identification: under a given observation design, which parameters can be recovered at all. The second is estimation: Bayesian latent-variable and hierarchical models that respect that design, checked by simulation. The third is the quantity that is actually used — a decision functional of those parameters, with uncertainty carried through rather than collapsed to a point estimate.
+    The state I want is not observed. The measurements I get are imperfect. I work on whether the target is identified from a given design, how to estimate it, and how to push that uncertainty through the number a decision actually uses.
 
-    Dissertation, in progress, advised by Valen E. Johnson. Chapter I: identification and estimation of prevalence and diagnostic accuracy without a gold standard. Chapter II: propagate that posterior, together with uncertainty in population and economic inputs, to a distribution over disease cost burden.
+    **Dissertation** (in progress). Advisor: Valen E. Johnson.
+
+    **Chapter I — Prevalence without a gold standard.**  
+    When can prevalence and diagnostic accuracy be recovered from imperfect tests and heterogeneous study designs? I characterize identification, then estimate with Bayesian latent-class and latent-severity models, checked by parameter-recovery simulations.
+
+    **Chapter II — Cost burden.**  
+    Prevalence is an intermediate. The target is a distribution over economic loss obtained by propagating the Chapter I posterior together with uncertainty in population and cost inputs.
 
     Application: diagnostic testing and disease burden. The inferential questions are not specific to that application.
 
 education:
   title: Education
   info:
-    - degree: PhD Statistics (expected May 2027)
+    - degree: "PhD Statistics (expected May 2027)"
       university: Texas A&M University
-      time: 2022 – present
+      time: "2022 - present"
 
     - degree: MS Statistics
       university: Texas A&M University
-      time: 2020 – 2022
+      time: "2020 - 2022"
 
     - degree: BS Statistics
       university: Texas A&M University
-      time: 2017 – 2020
+      time: "2017 - 2020"
 
 projects:
-  title: Dissertation and selected work
-  intro: >
-    Two chapters, one target. Chapter I asks when prevalence and diagnostic accuracy
-    are identified from imperfect tests and heterogeneous designs, and how to estimate
-    them. Chapter II treats cost burden as a posterior functional of that model,
-    not as prevalence times a constant.
+  title: Selected work
+  intro: "Detail for the two dissertation chapters and one separate project."
 
   assignments:
-    - title: "I. Identifiability of prevalence without a gold standard"
-      tagline: >
-        Target: prevalence and test accuracy when true status is never observed
-        and studies use different tests and designs. Standard latent-class models
-        can be unidentified, or identified only under assumptions the design does
-        not support. I use rank, null-space, and design-structure arguments to
-        mark when parameters are uniquely recoverable, then build Bayesian
-        latent-class and latent-severity models on the designs that support them.
-        Check: parameter-recovery simulations; explicit statement of what remains
-        unidentified under sparse or single-test designs. Status: in progress.
+    - title: "Identifiability under heterogeneous diagnostic designs"
+      tagline: "Rank, null-space, and design-structure arguments for when prevalence and accuracy are uniquely recoverable. States the designs that identify the target and the sparse or single-test designs that do not. In progress."
 
     - title: Bayesian latent-severity model
       link: https://github.com/minjee-kim/Bayesian-latent-severity-LCA
-      tagline: >
-        Continuous latent severity for diseased units, relaxing conditional
-        independence in classical LCA. MCMC with data augmentation; comparison
-        of conditional-independence, gamma-severity, and nonlocal-prior severity
-        specifications; recovery study and application to an existing diagnostic
-        panel. Code: model, simulation, and case-study scripts.
+      tagline: "Latent class model with a continuous severity variable, compared with a conditional-independence baseline. MCMC with data augmentation; parameter-recovery study; applied to an existing diagnostic panel."
 
-    - title: "II. Cost burden as a posterior functional"
-      tagline: >
-        Target: not a point prevalence. A distribution over economic loss
-        L = f(prevalence, population, unit costs). I push the Chapter I posterior
-        through f together with uncertainty in livestock populations and economic
-        inputs, and decompose which source moves the tail of L. Check: sensitivity
-        to the loss specification and to regions where Chapter I is weakly
-        identified. Status: in progress.
+    - title: "Uncertainty propagation for cost burden"
+      tagline: "Maps the prevalence posterior through population and unit-cost inputs to a distribution over economic loss. Decomposes which source of uncertainty moves the tail. In progress."
 
     - title: A/B testing and experimental design
       link: https://github.com/minjee-kim/ab-testing
-      tagline: >
-        Separate from the dissertation. Randomized experiments: metric definition,
-        power and sample size, treatment-effect estimation, uncertainty, and
-        diagnostics.
+      tagline: "Not part of the dissertation. Metric definition, power, treatment-effect estimation, and experiment diagnostics."
 
 experiences:
   title: Experience
   info:
     - role: Doctoral researcher
-      time: 2022 – present
+      time: "2022 - present"
       company: Department of Statistics, Texas A&M University
       details: |
-        Advisor: Valen E. Johnson.
+        Dissertation research with Valen E. Johnson. Identification and Bayesian estimation for latent disease status; uncertainty propagation into cost burden. Details above.
 
-        - Identifiability analysis for latent-variable models under heterogeneous observation designs.
-        - Bayesian hierarchical and latent-severity models for prevalence and diagnostic accuracy without a gold standard.
-        - Simulation studies of parameter recovery, robustness, and uncertainty.
-        - Propagation of posterior uncertainty into a distribution over economic cost burden.
-
-    - role: Instructor, STAT 211 — Principles of Statistics I
+    - role: "Instructor, STAT 211 - Principles of Statistics I"
       time: Fall 2026
       company: Department of Statistics, Texas A&M University
       details: |
@@ -112,15 +78,15 @@ experiences:
 
     - role: PhD statistics and data science intern
       time: Summer 2025
-      company: Lubrizol Corporation, Wickliffe, OH
+      company: "Lubrizol Corporation, Wickliffe, OH"
       details: |
         - Credible intervals for predictive models, so uncertainty was attached to the forecast rather than reported separately.
         - Repeatability and reproducibility studies to quantify measurement variability for product validation.
         - Predictive models from chemical composition to transmission-fluid performance.
 
     - role: Biostatistics research assistant
-      time: Aug 2021 – May 2023
-      company: Institute of Biosciences and Technology, Texas A&M University (Kurt Zhang lab)
+      time: "Aug 2021 - May 2023"
+      company: "Institute of Biosciences and Technology, Texas A&M University (Kurt Zhang lab)"
       details: |
         High-dimensional regression and clustering on DNA methylation data; NHANES analysis of dietary risk factors for hypertension in pregnancy. Contributed analysis to peer-reviewed papers listed below.
 
@@ -133,17 +99,16 @@ publications:
     - title: "Prevalence study in Cameroon identifies Brucella abortus as the endemic Brucella species in livestock"
       link: https://doi.org/10.1038/s41467-025-66515-z
       authors: "Guela, G.K., Laine, C.G., Gontao, P., Gomsu Dada, C.O., Abiba, H., Desire, D.P., Mbacham, W., Garcia-Gonzalez, D., Vection, S., Gillece, J.D., Kim, M., Johnson, V.E., Foster, J.T., Wade, A., Arenas-Gamboa, A.M."
-      conference: "Nature Communications 16:11600 (2025). Role: formal analysis, visualization, writing — review and editing."
+      conference: "Nature Communications 16, 11600 (2025). Role - formal analysis, visualization, writing review and editing."
 
     - title: "Epigenome-wide analysis of aging effects on liver regeneration"
       link: https://doi.org/10.1186/s12915-023-01533-1
       authors: "Wang, J., Zhang, W., Liu, X., Kim, M., Ke, Z., Tsai, R."
-      conference: "BMC Biology 21:30 (2023). Role: statistical analysis."
+      conference: "BMC Biology 21, 30 (2023). Role - statistical analysis."
 
     - title: "Maternal one-carbon supplement reduced the risk of non-alcoholic fatty liver disease in male offspring"
       link: https://doi.org/10.3390/nu14122545
       authors: "Peng, H., Xu, H., Wu, J., Li, J., Wang, X., Liu, Z., Kim, M., Jeon, M.S., Zhang, K.K., Xie, L."
-      conference: "Nutrients 14(12):2545 (2022). Role: statistical analysis."
+      conference: "Nutrients 14(12), 2545 (2022). Role - statistical analysis."
 
-footer: >
-  Site theme by <a href="https://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>.
+footer: "Site theme by Xiaoying Riley."
