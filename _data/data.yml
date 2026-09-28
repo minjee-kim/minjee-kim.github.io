@@ -3,7 +3,7 @@ sidebar:
   position: right
   about: false
   education: true
-  pdf: /assets/minjee-kim-cv.pdf
+
   name: Minjee Kim
   tagline: "PhD candidate in Statistics, Texas A&M"
   avatar: profile.jpeg
@@ -20,12 +20,12 @@ career-profile:
     **Dissertation** (in progress). Advisor: Valen E. Johnson.
 
     **Chapter I — Prevalence without a gold standard.**  
-    When can prevalence and diagnostic accuracy be recovered from imperfect tests and heterogeneous study designs? I characterize identification, then estimate with Bayesian latent-class and latent-severity models, checked by parameter-recovery simulations.
+    Prevalence and diagnostic accuracy are estimated from imperfect tests and heterogeneous study designs. I characterize when those parameters are identified, then estimate them with Bayesian latent-class and latent-severity models, checked by parameter-recovery simulations.
 
     **Chapter II — Cost burden.**  
-    Prevalence is an intermediate. The target is a distribution over economic loss obtained by propagating the Chapter I posterior together with uncertainty in population and cost inputs.
+    Prevalence is an intermediate. The target is a distribution over economic loss, obtained by propagating the Chapter I posterior together with uncertainty in population and cost inputs.
 
-    Application: diagnostic testing and disease burden. The inferential questions are not specific to that application.
+    Application: diagnostic testing and disease burden. The methods are not specific to that application.
 
 education:
   title: Education
@@ -44,8 +44,6 @@ education:
 
 projects:
   title: Selected work
-  intro: "Detail for the two dissertation chapters and one separate project."
-
   assignments:
     - title: "Identifiability under heterogeneous diagnostic designs"
       tagline: "Rank, null-space, and design-structure arguments for when prevalence and accuracy are uniquely recoverable. States the designs that identify the target and the sparse or single-test designs that do not. In progress."
@@ -59,7 +57,7 @@ projects:
 
     - title: A/B testing and experimental design
       link: https://github.com/minjee-kim/ab-testing
-      tagline: "Not part of the dissertation. Metric definition, power, treatment-effect estimation, and experiment diagnostics."
+      tagline: "Separate project. Metric definition, power, treatment-effect estimation, and experiment diagnostics."
 
 experiences:
   title: Experience
@@ -68,13 +66,15 @@ experiences:
       time: "2022 - present"
       company: Department of Statistics, Texas A&M University
       details: |
-        Dissertation research with Valen E. Johnson. Identification and Bayesian estimation for latent disease status; uncertainty propagation into cost burden. Details above.
+        - Advisor: Valen E. Johnson.
+        - Identifiability and Bayesian estimation for latent disease status without a gold standard.
+        - Uncertainty propagation from prevalence into a distribution over cost burden.
 
     - role: "Instructor, STAT 211 - Principles of Statistics I"
       time: Fall 2026
       company: Department of Statistics, Texas A&M University
       details: |
-        Probability, random variables, sampling distributions, estimation, testing, regression, and computation in R.
+        - Undergraduate probability, estimation, testing, regression, and computation in R.
 
     - role: PhD statistics and data science intern
       time: Summer 2025
@@ -88,7 +88,9 @@ experiences:
       time: "Aug 2021 - May 2023"
       company: "Institute of Biosciences and Technology, Texas A&M University (Kurt Zhang lab)"
       details: |
-        High-dimensional regression and clustering on DNA methylation data; NHANES analysis of dietary risk factors for hypertension in pregnancy. Contributed analysis to peer-reviewed papers listed below.
+        - High-dimensional regression and clustering on DNA methylation data.
+        - NHANES analysis of dietary risk factors for hypertension in pregnancy.
+        - Analysis contributed to peer-reviewed papers listed below.
 
 publications:
   title: Publications
