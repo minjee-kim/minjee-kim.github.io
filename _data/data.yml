@@ -69,7 +69,7 @@ projects:
 
     - title: A/B testing and experimental design
       link: https://github.com/minjee-kim/ab-testing
-      tagline: "Separate project. Metric definition, power, treatment-effect estimation, and experiment diagnostics."
+      tagline: "Analyses of three public experiments: Cookie Cats, the Udacity free-trial screener, and the Upworthy archive. Each defines the metric, checks the design, and estimates the treatment effect."
 
 experiences:
   title: Experience
