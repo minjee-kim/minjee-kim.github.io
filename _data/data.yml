@@ -11,9 +11,7 @@ sidebar:
   email: minjeekim0804@tamu.edu
   linkedin: minjee-kim
   github: minjee-kim
-  resume:
-    link: /assets/Minjee_Kim_CV.pdf
-    text: "CV (PDF)"
+  pdf: /assets/Minjee_Kim_CV.pdf
 
 career-profile:
   title: Research
