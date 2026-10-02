@@ -1,0 +1,28 @@
+{% assign tools = site.data.data.tools %}
+{% if tools %}
+<div class="education-container container-block">
+
+  <h2 class="container-block-title">
+    {{ tools.title }}
+  </h2>
+
+  {% for tool in tools.info %}
+  <div class="item">
+    <h4 class="degree">
+      {% if tool.link %}
+        <a href="{{ tool.link }}" target="_blank">{{ tool.title }}</a>
+      {% else %}
+        {{ tool.title }}
+      {% endif %}
+    </h4>
+    {% if tool.tagline %}
+    <h5 class="meta">{{ tool.tagline }}</h5>
+    {% endif %}
+    {% if tool.repo %}
+    <div class="time"><a href="{{ tool.repo }}" target="_blank">Source</a></div>
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
+
+</div><!--//tools-container-->
+{% endif %}
