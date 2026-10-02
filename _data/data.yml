@@ -15,12 +15,12 @@ sidebar:
 career-profile:
   title: Research
   summary: |
-    The state I want is not observed. The measurements I get are imperfect. I work on whether the target is identified from a given design, how to estimate it, and how to push that uncertainty through the number a decision actually uses.
+    I am a PhD student in Statistics at Texas A&M, advised by Valen E. Johnson. My dissertation is about estimating quantities you cannot observe directly, when the measurements you do have are imperfect.
 
     **Dissertation** (in progress). Advisor: Valen E. Johnson.
 
     **Chapter I — Prevalence without a gold standard.**  
-    Prevalence and diagnostic accuracy are estimated from imperfect tests and heterogeneous study designs. I characterize when those parameters are identified, then estimate them with Bayesian latent-class and latent-severity models, checked by parameter-recovery simulations.
+    Prevalence and diagnostic accuracy are estimated from imperfect tests and heterogeneous study designs. We characterize when those parameters are identified, then estimate them with Bayesian latent-class and latent-severity models, checked by parameter-recovery simulations.
 
     **Chapter II — Cost burden.**  
     Prevalence is an intermediate. The target is a distribution over economic loss, obtained by propagating the Chapter I posterior together with uncertainty in population and cost inputs.
