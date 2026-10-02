@@ -62,7 +62,7 @@ projects:
 
     - title: Bayesian latent-severity model
       link: https://github.com/minjee-kim/Bayesian-latent-severity-LCA
-      tagline: "Latent class model with a continuous severity variable, compared with a conditional-independence baseline. MCMC with data augmentation; parameter-recovery study; applied to an existing diagnostic panel."
+      tagline: "Latent class model with a continuous severity variable, compared with a conditional-independence baseline. MCMC with data augmentation; parameter-recovery study; reanalysis of the Strongyloides stool and serology data (Joseph et al., 1995)."
 
     - title: "Uncertainty propagation for cost burden"
       tagline: "Maps the prevalence posterior through population and unit-cost inputs to a distribution over economic loss. Decomposes which source of uncertainty moves the tail. **In progress.**"
