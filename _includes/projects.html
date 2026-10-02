@@ -37,7 +37,7 @@ It supports either `assignments` or `works` lists.
       </div>
   
       {% if project.tagline %}
-        <div class="project-tagline">{{ project.tagline }}</div>
+        <div class="project-tagline">{{ project.tagline | markdownify | remove: '<p>' | remove: '</p>' }}</div>
       {% endif %}
   
     </div>
