@@ -17,9 +17,7 @@ career-profile:
   title: Research
   summary: |
     I am a PhD student in Statistics at Texas A&M, advised by Valen E. Johnson. My dissertation is about estimating latent quantities you cannot observe directly, when the measurements you do have are imperfect.
-
-    <span style="font-size:1.35em"><Dissertation></span> <small>(in progress)</small>
-
+  chapters: |
     **Chapter I — Prevalence without a gold standard.**  
     Prevalence and diagnostic accuracy are estimated from imperfect tests and heterogeneous study designs. We characterize when those parameters are identified, then estimate them with Bayesian latent-class and latent-severity models, checked by parameter-recovery simulations.
 
