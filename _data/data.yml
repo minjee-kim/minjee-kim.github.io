@@ -46,10 +46,6 @@ education:
 tools:
   title: Tools
   info:
-    - title: nhanesGraph
-      link: https://github.com/minjee-kim/nhanesGraph
-      tagline: "R package for searching public-use continuous NHANES files and downloading them from the current CDC XPT URLs, 1999-2000 through August 2021-August 2023. Not an official CDC tool."
-
     - title: Quant Practice
       link: https://quant-practice.streamlit.app/
       repo: https://github.com/minjee-kim/Quant-Practice
@@ -107,6 +103,7 @@ experiences:
       details: |
         - High-dimensional regression and clustering on DNA methylation data.
         - NHANES analysis of dietary risk factors for hypertension in pregnancy.
+        - Developed the R package [nhanesGraph](https://github.com/minjee-kim/nhanesGraph) for searching public-use continuous NHANES files and downloading them from the current CDC XPT URLs, 1999-2000 through August 2021-August 2023. Not an official CDC tool.
         - Analysis contributed to peer-reviewed papers listed below.
 
 publications:
