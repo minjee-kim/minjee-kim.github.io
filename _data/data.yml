@@ -11,6 +11,9 @@ sidebar:
   email: minjeekim0804@tamu.edu
   linkedin: minjee-kim
   github: minjee-kim
+  resume:
+    link: /assets/Minjee_Kim_CV.pdf
+    text: "CV (PDF)"
 
 career-profile:
   title: Research
@@ -122,7 +125,7 @@ publications:
       conference: "BMC Biology 21, 30 (2023). Role - statistical analysis."
 
     - title: "Maternal one-carbon supplement reduced the risk of non-alcoholic fatty liver disease in male offspring"
-      link: https://doi.org/10.3390/nu14122545
+      link: https://doi.org/10.3390/nu1412545
       authors: "Peng, H., Xu, H., Wu, J., Li, J., Wang, X., Liu, Z., Kim, M., Jeon, M.S., Zhang, K.K., Xie, L."
       conference: "Nutrients 14(12), 2545 (2022). Role - statistical analysis."
 
