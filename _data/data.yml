@@ -25,7 +25,6 @@ career-profile:
     **Chapter II — Cost burden.**  
     Prevalence is an intermediate. The target is a distribution over economic loss, obtained by propagating the Chapter I posterior together with uncertainty in population and cost inputs.
 
-    Application: diagnostic testing and disease burden. The methods are not specific to that application.
 
 education:
   title: Education
@@ -59,14 +58,14 @@ projects:
   title: Selected work
   assignments:
     - title: "Identifiability under heterogeneous diagnostic designs"
-      tagline: "Rank, null-space, and design-structure arguments for when prevalence and accuracy are uniquely recoverable. States the designs that identify the target and the sparse or single-test designs that do not. In progress."
+      tagline: "Rank, null-space, and design-structure arguments for when prevalence and accuracy are uniquely recoverable. States the designs that identify the target and the sparse or single-test designs that do not. **In progress.**"
 
     - title: Bayesian latent-severity model
       link: https://github.com/minjee-kim/Bayesian-latent-severity-LCA
       tagline: "Latent class model with a continuous severity variable, compared with a conditional-independence baseline. MCMC with data augmentation; parameter-recovery study; applied to an existing diagnostic panel."
 
     - title: "Uncertainty propagation for cost burden"
-      tagline: "Maps the prevalence posterior through population and unit-cost inputs to a distribution over economic loss. Decomposes which source of uncertainty moves the tail. In progress."
+      tagline: "Maps the prevalence posterior through population and unit-cost inputs to a distribution over economic loss. Decomposes which source of uncertainty moves the tail. **In progress.**"
 
     - title: A/B testing and experimental design
       link: https://github.com/minjee-kim/ab-testing
