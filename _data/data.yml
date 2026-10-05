@@ -16,7 +16,7 @@ sidebar:
 career-profile:
   title: Research
   summary: |
-    I am a PhD student in Statistics at Texas A&M, advised by Valen E. Johnson. My dissertation is about estimating latent quantities you cannot observe directly, when the measurements you do have are imperfect.
+    I am a PhD student in Statistics at Texas A&M, advised by Dr. Valen E. Johnson. My dissertation is about estimating latent quantities you cannot observe directly, when the measurements you do have are imperfect.
 
     **Dissertation** (in progress).
 
@@ -67,7 +67,7 @@ experiences:
       time: "2022 - present"
       company: Department of Statistics, Texas A&M University
       details: |
-        - Advisor: Valen E. Johnson.
+        - Advisor: Dr. Valen E. Johnson.
         - Identifiability and Bayesian estimation for latent disease status without a gold standard.
         - Uncertainty propagation from prevalence into a distribution over cost burden.
 
