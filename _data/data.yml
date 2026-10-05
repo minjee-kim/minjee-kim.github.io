@@ -43,18 +43,6 @@ education:
       time: "2017 - 2020"
 
 
-tools:
-  title: Tools
-  info:
-    - title: Quant Practice
-      link: https://quant-practice.streamlit.app/
-      repo: https://github.com/minjee-kim/Quant-Practice
-      tagline: "Interview practice for probability, distributions, and mental math. Ten questions, optional timer, worked answers."
-
-    - title: Private market trends
-      link: https://github.com/minjee-kim/private-market-trends
-      tagline: "Language of private-markets quant research: benchmarks, nowcasting, and cash-flow pacing. Phrase counts from published notes, not a fitted model."
-
 projects:
   title: Selected work
   assignments:
