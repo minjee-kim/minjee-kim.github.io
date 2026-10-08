@@ -16,7 +16,7 @@ sidebar:
 career-profile:
   title: Research
   summary: |
-    I am a PhD student in Statistics at Texas A&M, advised by Dr. Valen E. Johnson. My dissertation is about estimating latent quantities you cannot observe directly, when the measurements you do have are imperfect.
+    I am a PhD candidate in Statistics at Texas A&M, advised by Dr. Valen E. Johnson. My dissertation is about estimating latent quantities you cannot observe directly, when the measurements you do have are imperfect.
 
     **Dissertation** (in progress).
 
@@ -46,15 +46,9 @@ education:
 projects:
   title: Selected work
   assignments:
-    - title: "Identifiability under heterogeneous diagnostic designs"
-      tagline: "Rank, null-space, and design-structure arguments for when prevalence and accuracy are uniquely recoverable. States the designs that identify the target and the sparse or single-test designs that do not. **In progress.**"
-
     - title: Bayesian latent-severity model
       link: https://github.com/minjee-kim/Bayesian-latent-severity-LCA
       tagline: "Latent class model with a continuous severity variable, compared with a conditional-independence baseline. MCMC with data augmentation; parameter-recovery study; reanalysis of the Strongyloides stool and serology data (Joseph et al., 1995)."
-
-    - title: "Uncertainty propagation for cost burden"
-      tagline: "Maps the prevalence posterior through population and unit-cost inputs to a distribution over economic loss. Decomposes which source of uncertainty moves the tail. **In progress.**"
 
     - title: A/B testing and experimental design
       link: https://github.com/minjee-kim/ab-testing
