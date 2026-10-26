@@ -57,14 +57,6 @@ projects:
 experiences:
   title: Experience
   info:
-    - role: Doctoral researcher
-      time: "2022 - present"
-      company: Department of Statistics, Texas A&M University
-      details: |
-        - Advisor: Dr. Valen E. Johnson.
-        - Identifiability and Bayesian estimation for latent disease status without a gold standard.
-        - Uncertainty propagation from prevalence into a distribution over cost burden.
-
     - role: "Instructor, STAT 211 - Principles of Statistics I"
       time: Fall 2026
       company: Department of Statistics, Texas A&M University
