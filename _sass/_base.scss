@@ -642,3 +642,60 @@ p {
   color: #f1f1f1;
   &:hover, &:focus { color: #ffffff; text-decoration: underline; }
 }
+
+
+/* About introduction and compact education column */
+.wrapper.portfolio-layout .about-section .about-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(205px, 1fr);
+  gap: 46px;
+  align-items: start;
+}
+.wrapper.portfolio-layout .about-section .about-copy { min-width: 0; }
+.wrapper.portfolio-layout .about-section .summary { max-width: none; }
+.wrapper.portfolio-layout .about-education {
+  border-left: 1px solid #e6e0d7;
+  padding-left: 25px;
+  margin-top: 2px;
+}
+.wrapper.portfolio-layout .about-side-title {
+  color: #383838;
+  font-size: 15px;
+  letter-spacing: .035em;
+  text-transform: uppercase;
+  margin: 0 0 16px;
+  font-weight: 600;
+}
+.wrapper.portfolio-layout .about-degree {
+  margin-bottom: 16px;
+}
+.wrapper.portfolio-layout .about-degree-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.45;
+}
+.wrapper.portfolio-layout .about-degree-school,
+.wrapper.portfolio-layout .about-degree-date {
+  color: #737373;
+  font-size: 12px;
+  line-height: 1.55;
+}
+/* A softly rounded portrait fits the rectangular black header better. */
+.wrapper.portfolio-layout .portfolio-avatar {
+  border-radius: 10px;
+}
+@media (max-width: 700px) {
+  .wrapper.portfolio-layout .about-section .about-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+  .wrapper.portfolio-layout .about-education {
+    border-left: none;
+    border-top: 1px solid #e6e0d7;
+    padding: 18px 0 0;
+  }
+  .wrapper.portfolio-layout .about-degree {
+    margin-bottom: 11px;
+  }
+}
