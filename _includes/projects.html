@@ -1,14 +1,6 @@
-{% comment %}
-Generic projects partial that can render any section passed in:
-  {% include projects.html section=site.data.data.projects %}
-  {% include projects.html section=site.data.data.appliedmodels %}
-It supports either `assignments` or `works` lists.
-{% endcomment %}
-
 {% assign section = include.section | default: site.data.data.projects %}
 {% if section %}
 <section class="section projects-section">
-
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -16,46 +8,38 @@ It supports either `assignments` or `works` lists.
     </span>
     {{ section.title }}
   </h2>
-
-  {% if section.intro %}
-    <div class="intro">
-      <p>{{ section.intro }}</p>
-    </div>
-  {% endif %}
-
-  {% assign items = section.assignments | default: section.works %}
-  {% for project in items %}
-  
-    <div class="item{% if project.image %} project-featured{% endif %}">
+  {% if section.intro %}<p class="section-intro">{{ section.intro }}</p>{% endif %}
+  <div class="featured-project-grid">
+    {% for project in section.assignments %}
+    <article class="research-card">
       {% if project.image %}
-        <a class="project-thumbnail" href="{{ project.link }}" target="_blank" rel="noopener noreferrer" aria-label="View {{ project.title }} on GitHub">
-          <img src="{{ project.image }}" alt="{{ project.image_alt | default: project.title }}" loading="lazy">
-        </a>
+      <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer" class="research-card-image" aria-label="View {{ project.title }} project">
+        <img src="{{ project.image }}" alt="{{ project.image_alt | default: project.title }}" loading="lazy">
+      </a>
       {% endif %}
-      <div class="project-body">
-        <div class="project-title">
-          {% if project.link %}
-            <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
-          {% else %}
-            {{ project.title }}
-          {% endif %}
+      <div class="research-card-content">
+        <h3><a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a></h3>
+        {% if project.tagline %}<div class="research-card-description">{{ project.tagline | markdownify }}</div>{% endif %}
+        <div class="research-card-links">
+          <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a>
+          {% if project.paper %}<a href="{{ project.paper }}" target="_blank" rel="noopener noreferrer">Research report <span aria-hidden="true">↗</span></a>{% endif %}
         </div>
-
-        {% if project.tagline %}
-          <div class="project-tagline">{{ project.tagline | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-        {% endif %}
-
-        {% if project.paper %}
-          <div class="project-links">
-            <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">Code &amp; experiments</a>
-            <span aria-hidden="true"> · </span>
-            <a href="{{ project.paper }}" target="_blank" rel="noopener noreferrer">Research report (PDF)</a>
-          </div>
-        {% endif %}
       </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% if section.more %}
+  <div class="additional-work">
+    <h3>Additional work</h3>
+    <div class="additional-work-list">
+      {% for project in section.more %}
+      <div class="additional-work-item">
+        <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+        {% if project.note %}<span>{{ project.note }}</span>{% endif %}
+      </div>
+      {% endfor %}
     </div>
-  
-  {% endfor %}
-
+  </div>
+  {% endif %}
 </section>
 {% endif %}
