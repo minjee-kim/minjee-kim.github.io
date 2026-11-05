@@ -46,6 +46,13 @@ education:
 projects:
   title: Selected work
   assignments:
+    - title: FLOCK — Monte Carlo Exploration & Algorithm Benchmarking
+      link: https://github.com/minjee-kim/FLOCK
+      image: https://raw.githubusercontent.com/minjee-kim/FLOCK/main/figures/geometric_search.svg
+      image_alt: "Contour illustration of geometry-guided posterior exploration"
+      paper: https://github.com/minjee-kim/FLOCK/blob/main/paper/main.pdf
+      tagline: "Designed and evaluated coordinated exploration strategies for challenging posterior distributions, including covariance-guided proposals, repulsive chains, and importance-sampling consolidation. Benchmarked estimation accuracy against MCMC baselines under controlled computational budgets, identifying both promising results and limitations in posterior inference."
+
     - title: Bayesian latent-severity model
       link: https://github.com/minjee-kim/Bayesian-latent-severity-LCA
       tagline: "Latent class model with a continuous severity variable, compared with a conditional-independence baseline. MCMC with data augmentation; parameter-recovery study; reanalysis of the Strongyloides stool and serology data (Joseph et al., 1995)."
