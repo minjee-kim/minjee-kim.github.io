@@ -1,0 +1,15 @@
+{% assign career-profile = site.data.data.career-profile %}
+{% if career-profile and career-profile.dissertation %}
+<section class="section dissertation-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-book-open fa-stack-1x fa-inverse"></i>
+    </span>
+    Dissertation
+  </h2>
+  <div class="summary">
+    {{ career-profile.dissertation | markdownify }}
+  </div>
+</section>
+{% endif %}
