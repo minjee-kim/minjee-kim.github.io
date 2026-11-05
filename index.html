@@ -2,22 +2,23 @@
 layout: default
 ---
 
-
 {% include career-profile.html %}
+
+{% include projects.html section=site.data.data.projects %}
+
+{% include publications.html %}
+
+{% include experiences.html %}
 
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
 
-{% include projects.html section=site.data.data.projects %}
-
-{% include experiences.html %}
+{% include dissertation.html %}
 
 {% include certifications.html %}
 
 {% include oss-contributions.html %}
-
-{% include publications.html %}
 
 {% include recommendations.html %}
 
