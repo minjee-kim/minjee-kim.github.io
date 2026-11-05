@@ -2,7 +2,7 @@
 sidebar:
   position: right
   about: false
-  education: true
+  education: false
 
   name: Minjee Kim
   tagline: "PhD candidate in Statistics, Texas A&M"
@@ -16,16 +16,18 @@ sidebar:
 career-profile:
   title: Research
   summary: |
-    I am a PhD candidate in Statistics at Texas A&M, advised by Dr. Valen E. Johnson. My dissertation is about estimating latent quantities you cannot observe directly, when the measurements you do have are imperfect.
+    I am a PhD candidate in Statistics at Texas A&M University, graduating in May 2027.
 
-    **Dissertation** (in progress).
+    My research focuses on statistical identifiability, Bayesian inference, and computational model validation. I study what can be learned from incomplete or imperfect observations, how to detect unreliable estimates, and how to quantify uncertainty in downstream predictions and decisions.
 
-    **Chapter I — Prevalence without a gold standard.**  
+    My work combines statistical methodology, Monte Carlo simulation, and applied modeling across scientific and economic problems.
+
+  dissertation: |
+    **Chapter I — Prevalence without a gold standard.**
     Prevalence and diagnostic accuracy are estimated from imperfect tests and heterogeneous study designs. We characterize when those parameters are identified, then estimate them with Bayesian latent-class and latent-severity models, checked by parameter-recovery simulations.
 
-    **Chapter II — Cost burden.**  
+    **Chapter II — Cost burden.**
     Prevalence is an intermediate. The target is a distribution over economic loss, obtained by propagating the Chapter I posterior together with uncertainty in population and cost inputs.
-
 
 education:
   title: Education
