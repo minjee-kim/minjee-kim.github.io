@@ -1,0 +1,18 @@
+{% assign profile = site.data.data.sidebar %}
+<header class="portfolio-header">
+  <div class="portfolio-header-identity">
+    {% if profile.avatar %}
+      <img class="portfolio-avatar" src="{{ '/assets/images/' | append: profile.avatar | relative_url }}" alt="Portrait of {{ profile.name }}" width="92" height="92">
+    {% endif %}
+    <div class="portfolio-header-text">
+      <h1>{{ profile.name }}</h1>
+      <p>{{ profile.tagline }}</p>
+      <nav class="portfolio-links" aria-label="Profile links">
+        {% if profile.github %}<a href="https://github.com/{{ profile.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>{% endif %}
+        {% if profile.linkedin %}<a href="https://www.linkedin.com/in/{{ profile.linkedin }}/" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}
+        {% if profile.pdf %}<a href="{{ profile.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>{% endif %}
+        {% if profile.email %}<a href="mailto:{{ profile.email }}">Email</a>{% endif %}
+      </nav>
+    </div>
+  </div>
+</header>
