@@ -1,18 +1,30 @@
 {% assign career-profile = site.data.data.career-profile %}
+{% assign education = site.data.data.education %}
 {% if career-profile %}
-<section class="section summary-section">
-
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ career-profile.title }}
-  </h2>
-
-  <div class="summary">
-    {{ career-profile.summary | markdownify }}
-  </div><!--//summary-->
-    
-</section><!--//section-->
+<section class="section summary-section about-section">
+  <div class="about-grid">
+    <div class="about-copy">
+      <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+        </span>
+        {{ career-profile.title }}
+      </h2>
+      <div class="summary">{{ career-profile.summary | markdownify }}</div>
+    </div>
+    {% if education %}
+    <aside class="about-education" aria-label="Education">
+      <h2 class="about-side-title">{{ education.title }}</h2>
+      {% for graduation in education.info %}
+      <div class="about-degree">
+        <div class="about-degree-name">{{ graduation.degree }}</div>
+        <div class="about-degree-school">{{ graduation.university }}</div>
+        <div class="about-degree-date">{{ graduation.time }}</div>
+      </div>
+      {% endfor %}
+    </aside>
+    {% endif %}
+  </div>
+</section>
 {% endif %}
