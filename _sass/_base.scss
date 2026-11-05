@@ -427,3 +427,123 @@ p {
     margin-right: 5px;
   }
 }
+
+
+/* Portfolio presentation: understated cards and compact research CV rows */
+.main-wrapper {
+  padding: 46px 42px;
+  .section { margin-bottom: 38px; }
+  .section-title {
+    font-size: 19px;
+    letter-spacing: .025em;
+    margin-bottom: 16px;
+  }
+  .summary-section {
+    margin-bottom: 30px;
+    .summary {
+      max-width: 68ch;
+      p { margin-bottom: 10px; line-height: 1.65; }
+    }
+  }
+  .projects-section {
+    .section-intro { margin: -3px 0 16px; color: #667079; }
+    .featured-project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-bottom: 23px;
+    }
+    .research-card {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #e5e0d7;
+      border-radius: 9px;
+      background: #fffefa;
+      overflow: hidden;
+    }
+    .research-card-image {
+      height: 178px;
+      padding: 13px;
+      background: #f7f5ef;
+      border-bottom: 1px solid #e5e0d7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+      }
+    }
+    .research-card-content {
+      padding: 16px 17px 15px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      h3 { font-size: 16px; line-height: 1.35; font-weight: 600; margin: 0 0 9px; }
+    }
+    .research-card-description {
+      font-size: 13px;
+      line-height: 1.6;
+      color: #545a5e;
+      p { margin: 0; }
+    }
+    .research-card-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px 15px;
+      font-size: 12px;
+      margin-top: auto;
+      padding-top: 13px;
+    }
+    .additional-work { margin-top: 22px; }
+    .additional-work h3 { font-size: 15px; margin: 0 0 8px; font-weight: 600; }
+    .additional-work-list { border-top: 1px solid #e7e2db; }
+    .additional-work-item {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      column-gap: 16px;
+      row-gap: 2px;
+      padding: 9px 0;
+      border-bottom: 1px solid #e7e2db;
+      font-size: 13px;
+      a { font-weight: 500; }
+      span { color: #747474; font-size: 12px; }
+    }
+  }
+  .publications-section {
+    .intro { margin-bottom: 12px; font-size: 12px; color: #6e7377; p { margin: 0; } }
+    .compact-record { padding: 11px 0; border-bottom: 1px solid #e7e2db; }
+    .publication-title { margin: 0 0 4px; font-size: 14px; font-weight: 600; line-height: 1.45; }
+    .publication-authors { font-size: 12px; font-style: normal; line-height: 1.5; color: #777; margin-bottom: 3px; }
+    .publication-conference { font-size: 12px; line-height: 1.5; }
+  }
+  .experiences-section, .educations-section {
+    .item { margin: 0; padding: 11px 0; border-bottom: 1px solid #e7e2db; }
+    .job-title, .degree { font-size: 14px; font-weight: 600; }
+    .company, .university { font-size: 12px; margin: 3px 0 0; }
+    .details { font-size: 12px; line-height: 1.5; margin-top: 7px; }
+    .details ul { margin: 0; padding-left: 18px; }
+    .details li { margin-bottom: 4px; }
+    .upper-row { align-items: baseline; justify-content: space-between; gap: 12px; overflow: visible; }
+    .time { position: static; flex: 0 0 auto; font-size: 12px; white-space: nowrap; }
+  }
+}
+
+@media (max-width: 1100px) {
+  .main-wrapper { padding: 38px 27px; }
+}
+@media (max-width: 830px) {
+  .main-wrapper .projects-section .featured-project-grid { grid-template-columns: 1fr; }
+  .main-wrapper .projects-section .research-card-image { height: 210px; }
+}
+@media (max-width: 560px) {
+  .main-wrapper { padding: 28px 19px; }
+  .main-wrapper .projects-section .research-card-image { height: 180px; }
+  .main-wrapper .experiences-section .upper-row,
+  .main-wrapper .educations-section .upper-row { align-items: flex-start; flex-wrap: wrap; gap: 2px 10px; }
+}
