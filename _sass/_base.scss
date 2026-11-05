@@ -630,3 +630,15 @@ p {
   .wrapper.portfolio-layout > .main-wrapper { padding: 24px 18px 32px; }
   .wrapper.portfolio-layout .projects-section .research-card-image { height: 180px; }
 }
+
+/* Dark header, preserving the cream content area. */
+.wrapper.portfolio-layout .portfolio-header {
+  background: #111111;
+  border-bottom-color: #111111;
+}
+.wrapper.portfolio-layout .portfolio-header-text h1 { color: #ffffff; }
+.wrapper.portfolio-layout .portfolio-header-text p { color: #d6d6d6; }
+.wrapper.portfolio-layout .portfolio-links a {
+  color: #f1f1f1;
+  &:hover, &:focus { color: #ffffff; text-decoration: underline; }
+}
