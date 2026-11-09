@@ -62,10 +62,14 @@ projects:
       tagline: "Exploratory comparison of coordinated proposal strategies for difficult posterior distributions. Benchmarks showed occasional improvements, but no consistent advantage over conventional methods."
       paper: https://github.com/minjee-kim/FLOCK/blob/main/paper/main.pdf
 
-  more:
-    - title: Financial forecasting
+    - title: "Financial forecasting — statistical vs. ML models"
       link: https://github.com/minjee-kim/financial-forecasting
-      note: In progress — time-series prediction and chronological validation
+      image: https://raw.githubusercontent.com/minjee-kim/financial-forecasting/main/figures/validation_oos_r2.svg
+      image_alt: "Out-of-sample R-squared comparison across statistical and machine-learning models on the validation period"
+      tagline: "Compared statistical benchmarks, linear and regularized regression, and tree-based ML for next-day SPY ETF log-return prediction. On the 2020–2023 validation period, Ridge achieved an out-of-sample R-squared of 0.001; more complex models offered no meaningful improvement over the simple average."
+      notebook: https://nbviewer.org/github/minjee-kim/financial-forecasting/blob/main/analysis.ipynb
+
+  more:
     - title: NYC property appraisal
       link: https://github.com/minjee-kim/NYC-appraisal
       note: Bayesian state-space modeling of lagged assessments
