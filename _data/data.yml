@@ -65,7 +65,7 @@ projects:
   more:
     - title: Financial forecasting
       link: https://github.com/minjee-kim/financial-forecasting
-      note: "Completed — statistical and ML forecasts of SPY returns; complex models did not meaningfully improve on the historical mean"
+      note: "Comparison of statistical and machine-learning models for next-day SPY returns."
     - title: NYC property appraisal
       link: https://github.com/minjee-kim/NYC-appraisal
       note: Bayesian state-space modeling of lagged assessments
