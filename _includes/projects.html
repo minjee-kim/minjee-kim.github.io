@@ -22,7 +22,6 @@
         {% if project.tagline %}<div class="research-card-description">{{ project.tagline | markdownify }}</div>{% endif %}
         <div class="research-card-links">
           <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a>
-          {% if project.notebook %}<a href="{{ project.notebook }}" target="_blank" rel="noopener noreferrer">Full analysis <span aria-hidden="true">↗</span></a>{% endif %}
           {% if project.paper %}<a href="{{ project.paper }}" target="_blank" rel="noopener noreferrer">Research report <span aria-hidden="true">↗</span></a>{% endif %}
         </div>
       </div>
